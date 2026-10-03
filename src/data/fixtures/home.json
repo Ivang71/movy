@@ -1,0 +1,4922 @@
+{
+ "hero": [
+  {
+   "id": "1458857",
+   "mediaType": "movie",
+   "title": "Doing Life",
+   "slug": "/movie/1458857",
+   "poster": "/5nZVjsCk5tWyyhLGt5U2TxsR85w.jpg",
+   "backdrop": "/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
+   "logo": "/zMSLBsrkEnP2BbNSd2725MCaXvJ.png",
+   "overview": "A single mother and an incarcerated man forge an unlikely bond through heartfelt letters, unlocking a door to redemption, hope and love against all odds.",
+   "rating": 6.9,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": "recently_added",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "298505",
+   "mediaType": "tv",
+   "title": "Coven Academy",
+   "slug": "/tv/298505",
+   "poster": "/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg",
+   "backdrop": "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+   "logo": "/aazmvkdMZs4nuYAEl0ukTPrto03.png",
+   "overview": "In the haunted heart of New Orleans, follow three teenage witches and their dangerously charming warlock peers at an elite magic boarding school where power is currency, secrets are lethal and attraction is a liability. Caught between ancient supernatural wars and forbidden love interests, the coven must decide how far they’re willing to go to protect their city—and themselves.",
+   "rating": 8.3,
+   "year": "2026",
+   "releaseDate": "2026-10-01",
+   "genreIds": [
+    9648,
+    18
+   ],
+   "tag": "new_season",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "284558",
+   "mediaType": "tv",
+   "title": "Kill Jackie",
+   "slug": "/tv/284558",
+   "poster": "/vvMpr6wO4EMtA7lqftffTel5c1R.jpg",
+   "backdrop": "/bbX3UIghhjJG6BW7WOGqxn4iySh.jpg",
+   "logo": "/mcxfMCC7V4xq1fEVyHV4wGe2quY.png",
+   "overview": "Jackie Price has been living a wealthy, luxurious life for the past 20 years after escaping a dangerous past as an international cocaine dealer. But just as life begins to feel a little boring, she discovers that The Seven Demons, a group of the world’s most terrifying hitmen, have been hired to kill her.",
+   "rating": 8.3,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    18,
+    80
+   ],
+   "tag": "new_season",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1248832",
+   "mediaType": "movie",
+   "title": "Digger",
+   "slug": "/movie/1248832",
+   "poster": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+   "backdrop": "/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+   "logo": "/yihRNwM4YjIaDHGd3K9pHCfJweo.png",
+   "overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+   "rating": 7.5,
+   "year": "2026",
+   "releaseDate": "2026-09-28",
+   "genreIds": [
+    35,
+    18
+   ],
+   "tag": "recently_added",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "258165",
+   "mediaType": "tv",
+   "title": "East of Eden",
+   "slug": "/tv/258165",
+   "poster": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+   "backdrop": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+   "logo": "/jd9EWL7f9Mefmj4c3YGEPqVx4r7.png",
+   "overview": "In the early 1900s, a fiercely independent woman drives a rift between two brothers, igniting a saga that unfolds across two generations.",
+   "rating": 8.1,
+   "year": "2026",
+   "releaseDate": "2026-10-01",
+   "genreIds": [
+    18
+   ],
+   "tag": "new_season",
+   "episodeCode": null,
+   "episodeAirDate": null
+  }
+ ],
+ "top10": [
+  {
+   "id": "1458857",
+   "mediaType": "movie",
+   "title": "Doing Life",
+   "slug": "/movie/1458857",
+   "poster": "/5nZVjsCk5tWyyhLGt5U2TxsR85w.jpg",
+   "backdrop": "/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
+   "logo": "/zMSLBsrkEnP2BbNSd2725MCaXvJ.png",
+   "overview": "A single mother and an incarcerated man forge an unlikely bond through heartfelt letters, unlocking a door to redemption, hope and love against all odds.",
+   "rating": 6.9,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": "recently_added",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "298505",
+   "mediaType": "tv",
+   "title": "Coven Academy",
+   "slug": "/tv/298505",
+   "poster": "/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg",
+   "backdrop": "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+   "logo": "/aazmvkdMZs4nuYAEl0ukTPrto03.png",
+   "overview": "In the haunted heart of New Orleans, follow three teenage witches and their dangerously charming warlock peers at an elite magic boarding school where power is currency, secrets are lethal and attraction is a liability. Caught between ancient supernatural wars and forbidden love interests, the coven must decide how far they’re willing to go to protect their city—and themselves.",
+   "rating": 8.3,
+   "year": "2026",
+   "releaseDate": "2026-10-01",
+   "genreIds": [
+    9648,
+    18
+   ],
+   "tag": "new_season",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "284558",
+   "mediaType": "tv",
+   "title": "Kill Jackie",
+   "slug": "/tv/284558",
+   "poster": "/vvMpr6wO4EMtA7lqftffTel5c1R.jpg",
+   "backdrop": "/bbX3UIghhjJG6BW7WOGqxn4iySh.jpg",
+   "logo": "/mcxfMCC7V4xq1fEVyHV4wGe2quY.png",
+   "overview": "Jackie Price has been living a wealthy, luxurious life for the past 20 years after escaping a dangerous past as an international cocaine dealer. But just as life begins to feel a little boring, she discovers that The Seven Demons, a group of the world’s most terrifying hitmen, have been hired to kill her.",
+   "rating": 8.3,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    18,
+    80
+   ],
+   "tag": "new_season",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1248832",
+   "mediaType": "movie",
+   "title": "Digger",
+   "slug": "/movie/1248832",
+   "poster": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+   "backdrop": "/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+   "logo": "/yihRNwM4YjIaDHGd3K9pHCfJweo.png",
+   "overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+   "rating": 7.5,
+   "year": "2026",
+   "releaseDate": "2026-09-28",
+   "genreIds": [
+    35,
+    18
+   ],
+   "tag": "recently_added",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "258165",
+   "mediaType": "tv",
+   "title": "East of Eden",
+   "slug": "/tv/258165",
+   "poster": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+   "backdrop": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+   "logo": "/jd9EWL7f9Mefmj4c3YGEPqVx4r7.png",
+   "overview": "In the early 1900s, a fiercely independent woman drives a rift between two brothers, igniting a saga that unfolds across two generations.",
+   "rating": 8.1,
+   "year": "2026",
+   "releaseDate": "2026-10-01",
+   "genreIds": [
+    18
+   ],
+   "tag": "new_season",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "298852",
+   "mediaType": "tv",
+   "title": "WAR",
+   "slug": "/tv/298852",
+   "poster": "/AtCR5LMuvwepTi1kipKq878Rbuq.jpg",
+   "backdrop": "/2hdcWhcyuHllCEjIxz8VDBzC0Fs.jpg",
+   "logo": null,
+   "overview": "An anthology series set in the elite world of London law following two rival firms, Cathcarts and Taylor & Byrne, as they face off in a different headline-making legal battle each season.",
+   "rating": 9.5,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "220542",
+   "mediaType": "tv",
+   "title": "The Apothecary Diaries",
+   "slug": "/tv/220542",
+   "poster": "/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
+   "backdrop": "/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+   "logo": null,
+   "overview": "Maomao lived a peaceful life with her apothecary father. Until one day, she's sold as a lowly servant to the emperor's palace. But she wasn't meant for a compliant life among royalty. So when imperial heirs fall ill, she decides to step in and find a cure! This catches the eye of Jinshi, a handsome palace official who promotes her. Now, she's making a name for herself solving medical mysteries!",
+   "rating": 8.6,
+   "year": "2023",
+   "releaseDate": "2023-10-22",
+   "genreIds": [
+    16,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "335227",
+   "mediaType": "tv",
+   "title": "I Would Rather Die",
+   "slug": "/tv/335227",
+   "poster": "/wCFvuoNaL4nk7HCFiH7uEm2CDEp.jpg",
+   "backdrop": "/x91V52Ew4WFoYOryVuFMNuFPZDC.jpg",
+   "logo": null,
+   "overview": "The protagonist Archie, considered the school loser, is bitten by a zombie and finds himself at the center of a mission to save the city alongside his friends Cris and Brenda.",
+   "rating": 9.5,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    10759,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "977942",
+   "mediaType": "movie",
+   "title": "The Uprising",
+   "slug": "/movie/977942",
+   "poster": "/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
+   "backdrop": "/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+   "logo": null,
+   "overview": "As war and plague devastate 14th-century England, a humble peasant ignites a rebellion, uniting an army of commoners to defy the King’s might in a desperate fight for justice and survival.",
+   "rating": 7.9,
+   "year": "2026",
+   "releaseDate": "2026-09-10",
+   "genreIds": [
+    36,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1283515",
+   "mediaType": "movie",
+   "title": "Verity",
+   "slug": "/movie/1283515",
+   "poster": "/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
+   "backdrop": "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+   "logo": null,
+   "overview": "Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing truths while residing at the Crawfords' home to work.",
+   "rating": 6.6,
+   "year": "2026",
+   "releaseDate": "2026-09-30",
+   "genreIds": [
+    9648,
+    53
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  }
+ ],
+ "trending": [
+  {
+   "id": "1248832",
+   "mediaType": "movie",
+   "title": "Digger",
+   "slug": "/movie/1248832",
+   "poster": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+   "backdrop": "/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.4,
+   "year": "2026",
+   "releaseDate": "2026-09-28",
+   "genreIds": [
+    35,
+    18
+   ],
+   "tag": "recently_added",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "95350",
+   "mediaType": "tv",
+   "title": "Lanterns",
+   "slug": "/tv/95350",
+   "poster": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+   "backdrop": "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.4,
+   "year": "2026",
+   "releaseDate": "2026-08-16",
+   "genreIds": [
+    18,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1377237",
+   "mediaType": "movie",
+   "title": "Runner",
+   "slug": "/movie/1377237",
+   "poster": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
+   "backdrop": "/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.3,
+   "year": "2026",
+   "releaseDate": "2026-09-07",
+   "genreIds": [
+    28,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "258165",
+   "mediaType": "tv",
+   "title": "East of Eden",
+   "slug": "/tv/258165",
+   "poster": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+   "backdrop": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.1,
+   "year": "2026",
+   "releaseDate": "2026-10-01",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "977942",
+   "mediaType": "movie",
+   "title": "The Uprising",
+   "slug": "/movie/977942",
+   "poster": "/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
+   "backdrop": "/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.9,
+   "year": "2026",
+   "releaseDate": "2026-09-10",
+   "genreIds": [
+    36,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "247718",
+   "mediaType": "tv",
+   "title": "MobLand",
+   "slug": "/tv/247718",
+   "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
+   "backdrop": "/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "2025",
+   "releaseDate": "2025-03-30",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1492640",
+   "mediaType": "movie",
+   "title": "UNABOMBER",
+   "slug": "/movie/1492640",
+   "poster": "/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+   "backdrop": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.6,
+   "year": "2026",
+   "releaseDate": "2026-09-25",
+   "genreIds": [
+    53,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "299939",
+   "mediaType": "tv",
+   "title": "Monster: The Lizzie Borden Story",
+   "slug": "/tv/299939",
+   "poster": "/57XScX1aYtKi1LvHYFQLPUxVhTG.jpg",
+   "backdrop": "/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.1,
+   "year": "2026",
+   "releaseDate": "2026-09-17",
+   "genreIds": [
+    18,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1423191",
+   "mediaType": "movie",
+   "title": "Resident Evil",
+   "slug": "/movie/1423191",
+   "poster": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+   "backdrop": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.3,
+   "year": "2026",
+   "releaseDate": "2026-09-16",
+   "genreIds": [
+    27,
+    878
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1413",
+   "mediaType": "tv",
+   "title": "American Horror Story",
+   "slug": "/tv/1413",
+   "poster": "/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg",
+   "backdrop": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.1,
+   "year": "2011",
+   "releaseDate": "2011-10-05",
+   "genreIds": [
+    18,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1283515",
+   "mediaType": "movie",
+   "title": "Verity",
+   "slug": "/movie/1283515",
+   "poster": "/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
+   "backdrop": "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.6,
+   "year": "2026",
+   "releaseDate": "2026-09-30",
+   "genreIds": [
+    9648,
+    53
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "37854",
+   "mediaType": "tv",
+   "title": "One Piece",
+   "slug": "/tv/37854",
+   "poster": "/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+   "backdrop": "/v38qp4bySLTXYu3MF8r5GD51FN3.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.8,
+   "year": "1999",
+   "releaseDate": "1999-10-20",
+   "genreIds": [
+    10759,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1339713",
+   "mediaType": "movie",
+   "title": "Obsession",
+   "slug": "/movie/1339713",
+   "poster": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+   "backdrop": "/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.2,
+   "year": "2026",
+   "releaseDate": "2026-05-13",
+   "genreIds": [
+    27,
+    53
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "220542",
+   "mediaType": "tv",
+   "title": "The Apothecary Diaries",
+   "slug": "/tv/220542",
+   "poster": "/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
+   "backdrop": "/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "2023",
+   "releaseDate": "2023-10-22",
+   "genreIds": [
+    16,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1204680",
+   "mediaType": "movie",
+   "title": "Coyote vs. Acme",
+   "slug": "/movie/1204680",
+   "poster": "/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
+   "backdrop": "/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.5,
+   "year": "2026",
+   "releaseDate": "2026-08-17",
+   "genreIds": [
+    35,
+    12
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "298505",
+   "mediaType": "tv",
+   "title": "Coven Academy",
+   "slug": "/tv/298505",
+   "poster": "/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg",
+   "backdrop": "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.3,
+   "year": "2026",
+   "releaseDate": "2026-10-01",
+   "genreIds": [
+    9648,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "969681",
+   "mediaType": "movie",
+   "title": "Spider-Man: Brand New Day",
+   "slug": "/movie/969681",
+   "poster": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+   "backdrop": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.9,
+   "year": "2026",
+   "releaseDate": "2026-07-29",
+   "genreIds": [
+    878,
+    28
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "284558",
+   "mediaType": "tv",
+   "title": "Kill Jackie",
+   "slug": "/tv/284558",
+   "poster": "/vvMpr6wO4EMtA7lqftffTel5c1R.jpg",
+   "backdrop": "/bbX3UIghhjJG6BW7WOGqxn4iySh.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.3,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    18,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1003596",
+   "mediaType": "movie",
+   "title": "Avengers: Doomsday",
+   "slug": "/movie/1003596",
+   "poster": "/jzPwsojjFStf5lR5Nm07w2hH56G.jpg",
+   "backdrop": "/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": null,
+   "year": "2026",
+   "releaseDate": "2026-12-15",
+   "genreIds": [
+    878,
+    28
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "615",
+   "mediaType": "tv",
+   "title": "Futurama",
+   "slug": "/tv/615",
+   "poster": "/7RRHbCUtAsVmKI6FEMzZB6Re88P.jpg",
+   "backdrop": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.4,
+   "year": "1999",
+   "releaseDate": "1999-03-28",
+   "genreIds": [
+    16,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1263337",
+   "mediaType": "movie",
+   "title": "Heart of the Beast",
+   "slug": "/movie/1263337",
+   "poster": "/mYqiF90igComG2L2qm8SwFbaMwn.jpg",
+   "backdrop": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.6,
+   "year": "2026",
+   "releaseDate": "2026-09-19",
+   "genreIds": [
+    12,
+    53
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "65942",
+   "mediaType": "tv",
+   "title": "Re:ZERO -Starting Life in Another World-",
+   "slug": "/tv/65942",
+   "poster": "/oHqYrPAsIiTD5m4DuxumV4er8BU.jpg",
+   "backdrop": "/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.1,
+   "year": "2016",
+   "releaseDate": "2016-04-04",
+   "genreIds": [
+    16,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1375441",
+   "mediaType": "movie",
+   "title": "Primetime",
+   "slug": "/movie/1375441",
+   "poster": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+   "backdrop": "/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.0,
+   "year": "2026",
+   "releaseDate": "2026-09-23",
+   "genreIds": [
+    53,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "250203",
+   "mediaType": "tv",
+   "title": "Brothers",
+   "slug": "/tv/250203",
+   "poster": "/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg",
+   "backdrop": "/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.2,
+   "year": "2026",
+   "releaseDate": "2026-09-22",
+   "genreIds": [
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  }
+ ],
+ "topRated": [
+  {
+   "id": "278",
+   "mediaType": "movie",
+   "title": "The Shawshank Redemption",
+   "slug": "/movie/278",
+   "poster": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+   "backdrop": "/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.7,
+   "year": "1994",
+   "releaseDate": "1994-09-23",
+   "genreIds": [
+    18,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "299167",
+   "mediaType": "tv",
+   "title": "Dutton Ranch",
+   "slug": "/tv/299167",
+   "poster": "/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
+   "backdrop": "/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 9.1,
+   "year": "2026",
+   "releaseDate": "2026-05-15",
+   "genreIds": [
+    37,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "238",
+   "mediaType": "movie",
+   "title": "The Godfather",
+   "slug": "/movie/238",
+   "poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "backdrop": "/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.7,
+   "year": "1972",
+   "releaseDate": "1972-03-14",
+   "genreIds": [
+    18,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1396",
+   "mediaType": "tv",
+   "title": "Breaking Bad",
+   "slug": "/tv/1396",
+   "poster": "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+   "backdrop": "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 9.0,
+   "year": "2008",
+   "releaseDate": "2008-01-20",
+   "genreIds": [
+    18,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "687163",
+   "mediaType": "movie",
+   "title": "Project Hail Mary",
+   "slug": "/movie/687163",
+   "poster": "/iOb2fjXLbpJgyQXe46n1WtGCnaa.jpg",
+   "backdrop": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "2026",
+   "releaseDate": "2026-03-15",
+   "genreIds": [
+    878,
+    12
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "273240",
+   "mediaType": "tv",
+   "title": "Off Campus",
+   "slug": "/tv/273240",
+   "poster": "/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
+   "backdrop": "/3ANXZWhhcqPAh0q6nRZ979TIwxC.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.9,
+   "year": "2026",
+   "releaseDate": "2026-05-13",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "936075",
+   "mediaType": "movie",
+   "title": "Michael",
+   "slug": "/movie/936075",
+   "poster": "/dueFqKLvjftnELZaGYwY7xinfaI.jpg",
+   "backdrop": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "2026",
+   "releaseDate": "2026-04-22",
+   "genreIds": [
+    10402,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "245026",
+   "mediaType": "tv",
+   "title": "Wizards Beyond Waverly Place",
+   "slug": "/tv/245026",
+   "poster": "/5hrBpjFzIqmN9k7QxEC610gwZGw.jpg",
+   "backdrop": "/TxicZcsiP9VHYXMYHm4IEHnwv9.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.8,
+   "year": "2024",
+   "releaseDate": "2024-10-29",
+   "genreIds": [
+    35,
+    10765,
+    10751
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "389",
+   "mediaType": "movie",
+   "title": "12 Angry Men",
+   "slug": "/movie/389",
+   "poster": "/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg",
+   "backdrop": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "1957",
+   "releaseDate": "1957-04-10",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "85077",
+   "mediaType": "tv",
+   "title": "The Chosen",
+   "slug": "/tv/85077",
+   "poster": "/dqVUFuNrMFWt7uGNWlpo91VKYOI.jpg",
+   "backdrop": "/3siv3RaQrdr2tQiv9jHq71sLlzo.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.8,
+   "year": "2019",
+   "releaseDate": "2019-04-21",
+   "genreIds": [
+    10759,
+    10751,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "240",
+   "mediaType": "movie",
+   "title": "The Godfather Part II",
+   "slug": "/movie/240",
+   "poster": "/8a1lJs7mFyGhGhZZDT1azJUoQiZ.jpg",
+   "backdrop": "/pGzqRKrYeK4LogoysNro0vG8d8N.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "1974",
+   "releaseDate": "1974-12-20",
+   "genreIds": [
+    18,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "250307",
+   "mediaType": "tv",
+   "title": "The Pitt",
+   "slug": "/tv/250307",
+   "poster": "/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+   "backdrop": "/z3BkMbCy5ajZPMyKEUwsPHuz2cV.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.7,
+   "year": "2025",
+   "releaseDate": "2025-01-09",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "424",
+   "mediaType": "movie",
+   "title": "Schindler's List",
+   "slug": "/movie/424",
+   "poster": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+   "backdrop": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "1993",
+   "releaseDate": "1993-12-15",
+   "genreIds": [
+    18,
+    36,
+    10752
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "87108",
+   "mediaType": "tv",
+   "title": "Chernobyl",
+   "slug": "/tv/87108",
+   "poster": "/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
+   "backdrop": "/900tHlUYUkp7Ol04XFSoAaEIXcT.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.7,
+   "year": "2019",
+   "releaseDate": "2019-05-06",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "155",
+   "mediaType": "movie",
+   "title": "The Dark Knight",
+   "slug": "/movie/155",
+   "poster": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+   "backdrop": "/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "2008",
+   "releaseDate": "2008-07-16",
+   "genreIds": [
+    28,
+    53,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "60059",
+   "mediaType": "tv",
+   "title": "Better Call Saul",
+   "slug": "/tv/60059",
+   "poster": "/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+   "backdrop": "/rfxryDIv8huejujg4JueDJx8zCz.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.7,
+   "year": "2015",
+   "releaseDate": "2015-02-08",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "497",
+   "mediaType": "movie",
+   "title": "The Green Mile",
+   "slug": "/movie/497",
+   "poster": "/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
+   "backdrop": "/amZavErrjrdgDwhsIdpWxHNenIx.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "1999",
+   "releaseDate": "1999-12-10",
+   "genreIds": [
+    14,
+    18,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "301507",
+   "mediaType": "tv",
+   "title": "Heated Rivalry",
+   "slug": "/tv/301507",
+   "poster": "/3YCKbtAkYWCMDLHvkUjGhG7eWoS.jpg",
+   "backdrop": "/3vuBfAuAltIR6UdANUQ1lLXOeia.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.7,
+   "year": "2025",
+   "releaseDate": "2025-11-28",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "122",
+   "mediaType": "movie",
+   "title": "The Lord of the Rings: The Return of the King",
+   "slug": "/movie/122",
+   "poster": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+   "backdrop": "/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "2003",
+   "releaseDate": "2003-12-17",
+   "genreIds": [
+    12,
+    14,
+    28
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1398",
+   "mediaType": "tv",
+   "title": "The Sopranos",
+   "slug": "/tv/1398",
+   "poster": "/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
+   "backdrop": "/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.7,
+   "year": "1999",
+   "releaseDate": "1999-01-10",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "157336",
+   "mediaType": "movie",
+   "title": "Interstellar",
+   "slug": "/movie/157336",
+   "poster": "/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+   "backdrop": "/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "2014",
+   "releaseDate": "2014-11-05",
+   "genreIds": [
+    12,
+    18,
+    878
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "70785",
+   "mediaType": "tv",
+   "title": "Anne with an E",
+   "slug": "/tv/70785",
+   "poster": "/6P6tXhjT5tK3qOXzxF9OMLlG7iz.jpg",
+   "backdrop": "/ywQtHG17LZhAFZyZtBflhtFMtJ7.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.7,
+   "year": "2017",
+   "releaseDate": "2017-03-19",
+   "genreIds": [
+    18,
+    10751
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "680",
+   "mediaType": "movie",
+   "title": "Pulp Fiction",
+   "slug": "/movie/680",
+   "poster": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+   "backdrop": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "1994",
+   "releaseDate": "1994-09-10",
+   "genreIds": [
+    53,
+    80,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1438",
+   "mediaType": "tv",
+   "title": "The Wire",
+   "slug": "/tv/1438",
+   "poster": "/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+   "backdrop": "/aQTtua5pG490fMfeKgtYg5B853e.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "2002",
+   "releaseDate": "2002-06-02",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  }
+ ],
+ "upcomingTv": [
+  {
+   "id": "95350",
+   "mediaType": "tv",
+   "title": "Lanterns",
+   "slug": "/tv/95350",
+   "poster": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+   "backdrop": "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.8,
+   "year": "2026",
+   "releaseDate": "2026-08-16",
+   "genreIds": [
+    18,
+    9648,
+    10765
+   ],
+   "tag": "new_episode",
+   "episodeCode": "S1.E7",
+   "episodeAirDate": "2026-09-27"
+  },
+  {
+   "id": "239618",
+   "mediaType": "tv",
+   "title": "American Hostage",
+   "slug": "/tv/239618",
+   "poster": "/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
+   "backdrop": "/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.0,
+   "year": "2026",
+   "releaseDate": "2026-09-20",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S1.E3",
+   "episodeAirDate": "2026-09-27"
+  },
+  {
+   "id": "456",
+   "mediaType": "tv",
+   "title": "The Simpsons",
+   "slug": "/tv/456",
+   "poster": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
+   "backdrop": "/qcSHGC5BfoqBoP99PzDIERYG5Qm.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "1989",
+   "releaseDate": "1989-12-17",
+   "genreIds": [
+    16,
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S38.E1",
+   "episodeAirDate": "2026-09-27"
+  },
+  {
+   "id": "615",
+   "mediaType": "tv",
+   "title": "Futurama",
+   "slug": "/tv/615",
+   "poster": "/7RRHbCUtAsVmKI6FEMzZB6Re88P.jpg",
+   "backdrop": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "1999",
+   "releaseDate": "1999-03-28",
+   "genreIds": [
+    16,
+    35,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": "S14.E10",
+   "episodeAirDate": "2026-09-28"
+  },
+  {
+   "id": "82428",
+   "mediaType": "tv",
+   "title": "All American",
+   "slug": "/tv/82428",
+   "poster": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
+   "backdrop": "/2sAQs9nIhLXcJU7rz8Vq19j8rO0.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.6,
+   "year": "2018",
+   "releaseDate": "2018-10-10",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S8.E13",
+   "episodeAirDate": "2026-09-28"
+  },
+  {
+   "id": "1489",
+   "mediaType": "tv",
+   "title": "Jimmy Kimmel Live!",
+   "slug": "/tv/1489",
+   "poster": "/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+   "backdrop": "/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.4,
+   "year": "2003",
+   "releaseDate": "2003-01-26",
+   "genreIds": [
+    10767,
+    35
+   ],
+   "tag": "new_episode",
+   "episodeCode": "S25.E11",
+   "episodeAirDate": "2026-09-28"
+  },
+  {
+   "id": "95480",
+   "mediaType": "tv",
+   "title": "Slow Horses",
+   "slug": "/tv/95480",
+   "poster": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+   "backdrop": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.4,
+   "year": "2022",
+   "releaseDate": "2022-04-01",
+   "genreIds": [
+    80,
+    18,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S6.E3",
+   "episodeAirDate": "2026-09-30"
+  },
+  {
+   "id": "250203",
+   "mediaType": "tv",
+   "title": "Brothers",
+   "slug": "/tv/250203",
+   "poster": "/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg",
+   "backdrop": "/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.3,
+   "year": "2026",
+   "releaseDate": "2026-09-22",
+   "genreIds": [
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S1.E3",
+   "episodeAirDate": "2026-09-30"
+  },
+  {
+   "id": "47663",
+   "mediaType": "tv",
+   "title": "The Ark",
+   "slug": "/tv/47663",
+   "poster": "/rec774m02XNLSjU9qm5z6UUfMRl.jpg",
+   "backdrop": "/nUEcobWsTpvOh23US0MRZXIU8jt.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.8,
+   "year": "2023",
+   "releaseDate": "2023-02-01",
+   "genreIds": [
+    10765,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S3.E10",
+   "episodeAirDate": "2026-09-30"
+  },
+  {
+   "id": "253983",
+   "mediaType": "tv",
+   "title": "Women in Blue",
+   "slug": "/tv/253983",
+   "poster": "/9CHpaYUqgFM81e0emaWkfyFyche.jpg",
+   "backdrop": "/v713kGiwYw2amhk6v9lfxvAYncv.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.3,
+   "year": "2024",
+   "releaseDate": "2024-07-30",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S2.E8",
+   "episodeAirDate": "2026-09-30"
+  },
+  {
+   "id": "258165",
+   "mediaType": "tv",
+   "title": "East of Eden",
+   "slug": "/tv/258165",
+   "poster": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+   "backdrop": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.7,
+   "year": "2026",
+   "releaseDate": "2026-10-01",
+   "genreIds": [
+    18
+   ],
+   "tag": "new_episode",
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-01"
+  },
+  {
+   "id": "203667",
+   "mediaType": "tv",
+   "title": "Red Queen",
+   "slug": "/tv/203667",
+   "poster": "/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg",
+   "backdrop": "/2SJ6OOyK8tWaKF7W7PzYxOKKStZ.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.8,
+   "year": "2024",
+   "releaseDate": "2024-02-29",
+   "genreIds": [
+    10759,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S2.E1",
+   "episodeAirDate": "2026-10-02"
+  },
+  {
+   "id": "80748",
+   "mediaType": "tv",
+   "title": "FBI",
+   "slug": "/tv/80748",
+   "poster": "/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg",
+   "backdrop": "/5DFvscYGpcFaQMJljCic5gbzVe6.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.1,
+   "year": "2018",
+   "releaseDate": "2018-09-25",
+   "genreIds": [
+    80,
+    10759,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S9.E1",
+   "episodeAirDate": "2026-10-05"
+  },
+  {
+   "id": "286712",
+   "mediaType": "tv",
+   "title": "Private Eyes West Coast",
+   "slug": "/tv/286712",
+   "poster": "/6eulJ8STxOjTkIpBMAcJBOPuKOw.jpg",
+   "backdrop": "/j5t8hJRdsxwnovaXRAWWy8WmPvH.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.4,
+   "year": "2026",
+   "releaseDate": "2026-09-30",
+   "genreIds": [
+    80,
+    18,
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-05"
+  },
+  {
+   "id": "228026",
+   "mediaType": "tv",
+   "title": "Law & Order Toronto: Criminal Intent",
+   "slug": "/tv/228026",
+   "poster": "/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+   "backdrop": "/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.3,
+   "year": "2024",
+   "releaseDate": "2024-02-22",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S2.E1",
+   "episodeAirDate": "2026-10-05"
+  },
+  {
+   "id": "288673",
+   "mediaType": "tv",
+   "title": "Carrie",
+   "slug": "/tv/288673",
+   "poster": "/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg",
+   "backdrop": "/x4HuDkzyAfGfZpuJURU8mg43q6H.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.7,
+   "year": "2026",
+   "releaseDate": "2026-10-07",
+   "genreIds": [
+    9648,
+    18
+   ],
+   "tag": "new_episode",
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-07"
+  },
+  {
+   "id": "285322",
+   "mediaType": "tv",
+   "title": "Below",
+   "slug": "/tv/285322",
+   "poster": "/qadm9To9UfMVenVzGVLt0m0iuxv.jpg",
+   "backdrop": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 10.0,
+   "year": "2026",
+   "releaseDate": "2026-10-08",
+   "genreIds": [
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-08"
+  },
+  {
+   "id": "284833",
+   "mediaType": "tv",
+   "title": "Avatar: Seven Havens",
+   "slug": "/tv/284833",
+   "poster": "/vYNar1VtdNyQXXUt16uPbIT6wzr.jpg",
+   "backdrop": "/ztxiwR10U7ezD16XBLn8xYryYYq.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": null,
+   "year": "2026",
+   "releaseDate": "2026-10-09",
+   "genreIds": [
+    16,
+    10759,
+    10765,
+    10751
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-09"
+  },
+  {
+   "id": "213375",
+   "mediaType": "tv",
+   "title": "VisionQuest",
+   "slug": "/tv/213375",
+   "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+   "backdrop": "/v50p9hearMiu6BlYfp4O7FACmXl.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": null,
+   "year": "2026",
+   "releaseDate": "2026-10-14",
+   "genreIds": [
+    10765
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-14"
+  },
+  {
+   "id": "289892",
+   "mediaType": "tv",
+   "title": "Helluva Boss",
+   "slug": "/tv/289892",
+   "poster": "/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg",
+   "backdrop": "/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.9,
+   "year": "2020",
+   "releaseDate": "2020-10-31",
+   "genreIds": [
+    16,
+    35,
+    18,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": "S3.E2",
+   "episodeAirDate": "2026-10-14"
+  },
+  {
+   "id": "203857",
+   "mediaType": "tv",
+   "title": "The Diplomat",
+   "slug": "/tv/203857",
+   "poster": "/cOKXV0FalCYixNmZYCfHXgyQ0VX.jpg",
+   "backdrop": "/v6f9FUDDQfGIv8MLRQwlL0zvRjI.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.0,
+   "year": "2023",
+   "releaseDate": "2023-04-20",
+   "genreIds": [
+    18,
+    10768
+   ],
+   "tag": "new_episode",
+   "episodeCode": "S4.E1",
+   "episodeAirDate": "2026-10-15"
+  },
+  {
+   "id": "213562",
+   "mediaType": "tv",
+   "title": "Crystal Lake",
+   "slug": "/tv/213562",
+   "poster": "/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+   "backdrop": "/3qbNgNqMFrEEhIl43UKD9oxCkOw.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.4,
+   "year": "2026",
+   "releaseDate": "2026-10-15",
+   "genreIds": [
+    9648,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-15"
+  },
+  {
+   "id": "234310",
+   "mediaType": "tv",
+   "title": "Where's Wanda?",
+   "slug": "/tv/234310",
+   "poster": "/e31KF5NW91PA5ktaxqGMmx6myea.jpg",
+   "backdrop": "/ihFgxTeZ8nenm8Y41tuGH7tCeTU.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.5,
+   "year": "2024",
+   "releaseDate": "2024-10-02",
+   "genreIds": [
+    18,
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S2.E1",
+   "episodeAirDate": "2026-10-21"
+  },
+  {
+   "id": "96677",
+   "mediaType": "tv",
+   "title": "Lupin",
+   "slug": "/tv/96677",
+   "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+   "backdrop": "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.5,
+   "year": "2021",
+   "releaseDate": "2021-01-08",
+   "genreIds": [
+    80,
+    18,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S4.E1",
+   "episodeAirDate": "2026-10-23"
+  }
+ ],
+ "recent4k": [
+  {
+   "id": "1752355",
+   "mediaType": "movie",
+   "title": "Schumacher '94 - The Birth of a Legend",
+   "slug": "/movie/1752355",
+   "poster": "/1gA4V3WX865ZB9nidUhGId2SVTM.jpg",
+   "backdrop": "/8ADvnUHcEyt2247A1EL9WK4IdMI.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 9.2,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    99
+   ],
+   "tag": "recently_added",
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "196322",
+   "mediaType": "tv",
+   "title": "Dark Matter",
+   "slug": "/tv/196322",
+   "poster": "/2DPmTlv8F0V1TQBPmlsGOVOhtWk.jpg",
+   "backdrop": "/iBc82qaA05ntzSnrVndw8scv4Bn.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.8,
+   "year": "2024",
+   "releaseDate": "2024-05-07",
+   "genreIds": [
+    10765,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1341138",
+   "mediaType": "movie",
+   "title": "Spa Weekend",
+   "slug": "/movie/1341138",
+   "poster": "/uhx4YjT9YbSxrKVE7GWJdjI412J.jpg",
+   "backdrop": "/8NGPUlR4xKQfgLaWCeXALGF3i27.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.4,
+   "year": "2026",
+   "releaseDate": "2026-08-20",
+   "genreIds": [
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1309083",
+   "mediaType": "movie",
+   "title": "Dolly",
+   "slug": "/movie/1309083",
+   "poster": "/oJJquv1sg5XMTIyNHxEm0KLo696.jpg",
+   "backdrop": "/9MeHubuKm7XJLx68LDEkE8yVnWZ.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.7,
+   "year": "2026",
+   "releaseDate": "2026-03-06",
+   "genreIds": [
+    27
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1655049",
+   "mediaType": "movie",
+   "title": "Habeebi",
+   "slug": "/movie/1655049",
+   "poster": "/kHU73XK0DHhphgo7U6MUQz8ADYv.jpg",
+   "backdrop": "/hdQRhWMUg6cKSWcTCCyqWXcv8Ly.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": null,
+   "year": "2026",
+   "releaseDate": "2026-06-12",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1458857",
+   "mediaType": "movie",
+   "title": "Doing Life",
+   "slug": "/movie/1458857",
+   "poster": "/5nZVjsCk5tWyyhLGt5U2TxsR85w.jpg",
+   "backdrop": "/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.6,
+   "year": "2026",
+   "releaseDate": "2026-10-02",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1284186",
+   "mediaType": "movie",
+   "title": "Sacrifice",
+   "slug": "/movie/1284186",
+   "poster": "/SGH7mlgfDyGgRCi2At62Ljg3zV.jpg",
+   "backdrop": "/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.2,
+   "year": "2026",
+   "releaseDate": "2026-04-09",
+   "genreIds": [
+    12,
+    35,
+    28
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1267116",
+   "mediaType": "movie",
+   "title": "Bad Man",
+   "slug": "/movie/1267116",
+   "poster": "/sAXOvhAEntXlJvPHed1GC1yJ2tM.jpg",
+   "backdrop": "/1vpYetmXPalRThqVpxMr02DDQEW.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.5,
+   "year": "2025",
+   "releaseDate": "2025-09-05",
+   "genreIds": [
+    28,
+    35,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "284792",
+   "mediaType": "tv",
+   "title": "Medusa",
+   "slug": "/tv/284792",
+   "poster": "/mFsjwJdNBKDRYLqPdBFaoVCKXLq.jpg",
+   "backdrop": "/gm7OMY4t99UpiMpIShNOKvKLQwO.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.2,
+   "year": "2025",
+   "releaseDate": "2025-03-05",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "285783",
+   "mediaType": "movie",
+   "title": "The Walk",
+   "slug": "/movie/285783",
+   "poster": "/tiESRqurrZwAC0hpERogOsBhjeg.jpg",
+   "backdrop": "/vAYMNOcGgFa7HtjvOdxQYPGntgz.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.0,
+   "year": "2015",
+   "releaseDate": "2015-09-30",
+   "genreIds": [
+    36,
+    18,
+    12
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1437195",
+   "mediaType": "movie",
+   "title": "Livestream from Hell",
+   "slug": "/movie/1437195",
+   "poster": "/2bKGy1SoXZEUa69HRSy51rVM5KF.jpg",
+   "backdrop": "/eJ4vMJJlnxnKqdJCBDXvNmE0LVp.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.1,
+   "year": "2026",
+   "releaseDate": "2026-09-30",
+   "genreIds": [
+    27,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "294990",
+   "mediaType": "tv",
+   "title": "Spring of the Blade",
+   "slug": "/tv/294990",
+   "poster": "/fLO08FwdT4aaLQQr9YInqhoAeWM.jpg",
+   "backdrop": "/k3aKIWf48yCKnbCjk2b2Tea32Vk.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 9.5,
+   "year": "2026",
+   "releaseDate": "2026-09-17",
+   "genreIds": [
+    18,
+    10751
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "258321",
+   "mediaType": "tv",
+   "title": "Jet Lag: The Game",
+   "slug": "/tv/258321",
+   "poster": "/9XhuLVDsLfNV6DUQXQhgf8uRWAD.jpg",
+   "backdrop": "/aSUBblcybEST0NMblw4MOydgHDG.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 9.3,
+   "year": "2022",
+   "releaseDate": "2022-05-25",
+   "genreIds": [
+    10764
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "331033",
+   "mediaType": "tv",
+   "title": "Collision",
+   "slug": "/tv/331033",
+   "poster": "/ue1kLkkh9AbhnEs1sfY0Jo2f6Fy.jpg",
+   "backdrop": "/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.0,
+   "year": "2026",
+   "releaseDate": "2026-09-07",
+   "genreIds": [
+    18,
+    10766
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1669281",
+   "mediaType": "movie",
+   "title": "Romanchakam",
+   "slug": "/movie/1669281",
+   "poster": "/p8NASLkwMuWJMzncvNViscP6hgj.jpg",
+   "backdrop": "/z5Lm7BZ6yZ9PY6eHEsFss6pMdhx.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": null,
+   "year": "2026",
+   "releaseDate": "2026-09-02",
+   "genreIds": [
+    10749,
+    35,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "232018",
+   "mediaType": "tv",
+   "title": "Has Fallen",
+   "slug": "/tv/232018",
+   "poster": "/eyK6fy2NWfjmyBjUvRAR14FynPK.jpg",
+   "backdrop": "/3yoTM5JtkxnPZvVzQOrL0c2ILVM.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.0,
+   "year": "2024",
+   "releaseDate": "2024-09-23",
+   "genreIds": [
+    10759,
+    10768
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "218344",
+   "mediaType": "tv",
+   "title": "Blue Lights",
+   "slug": "/tv/218344",
+   "poster": "/3C3c40DH8M6qdECHLlxk8o5nrC0.jpg",
+   "backdrop": "/sgTIYDlHJjCUaP1JV98iBj1TrnG.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.6,
+   "year": "2023",
+   "releaseDate": "2023-03-27",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "223911",
+   "mediaType": "tv",
+   "title": "Renegade Immortal",
+   "slug": "/tv/223911",
+   "poster": "/wbZVuX5wbliibnuzphp2EsEhqF5.jpg",
+   "backdrop": "/crn53sSGWRZ8wAtEGso52nepEkz.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.3,
+   "year": "2023",
+   "releaseDate": "2023-09-25",
+   "genreIds": [
+    16,
+    18,
+    10759
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "97546",
+   "mediaType": "tv",
+   "title": "Ted Lasso",
+   "slug": "/tv/97546",
+   "poster": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+   "backdrop": "/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.4,
+   "year": "2020",
+   "releaseDate": "2020-08-14",
+   "genreIds": [
+    18,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1232569",
+   "mediaType": "movie",
+   "title": "Pinocchio: Unstrung",
+   "slug": "/movie/1232569",
+   "poster": "/eUJXk3bTvLBi5Zcb0BCedZU7lVL.jpg",
+   "backdrop": "/vgZDb7kmaxP24cFbt1KJdMLlHFZ.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.5,
+   "year": "2026",
+   "releaseDate": "2026-07-22",
+   "genreIds": [
+    27,
+    14,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "9823",
+   "mediaType": "movie",
+   "title": "Mortal Kombat: Annihilation",
+   "slug": "/movie/9823",
+   "poster": "/ttryglcY2osWZE3sRYBf3ewTZsW.jpg",
+   "backdrop": "/19EpgKZDkLIwY1TI1pjBJtQ5qdr.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 4.6,
+   "year": "1997",
+   "releaseDate": "1997-11-11",
+   "genreIds": [
+    28,
+    14,
+    878
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "400155",
+   "mediaType": "movie",
+   "title": "Hotel Transylvania 3: Summer Vacation",
+   "slug": "/movie/400155",
+   "poster": "/lzE5BwGQea1nek7TPXUuC5AZ6rq.jpg",
+   "backdrop": "/gvUYIHWzq7r3KuzAaKvly2h0SjM.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.8,
+   "year": "2018",
+   "releaseDate": "2018-06-28",
+   "genreIds": [
+    16,
+    35,
+    10751,
+    14
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "159824",
+   "mediaType": "movie",
+   "title": "Hotel Transylvania 2",
+   "slug": "/movie/159824",
+   "poster": "/3nFnrivNgipSKZ8LZJJbRSlAcTR.jpg",
+   "backdrop": "/mfnkxXWuh2Br097Qteq8ieqKfev.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.8,
+   "year": "2015",
+   "releaseDate": "2015-09-21",
+   "genreIds": [
+    16,
+    35,
+    10751,
+    14
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "395834",
+   "mediaType": "movie",
+   "title": "Wind River",
+   "slug": "/movie/395834",
+   "poster": "/pySivdR845Hom4u4T2WNkJxe6Ad.jpg",
+   "backdrop": "/kQGxGXzYiCumY8kmXXpgbZyZQK8.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.4,
+   "year": "2017",
+   "releaseDate": "2017-08-03",
+   "genreIds": [
+    80,
+    9648,
+    53
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  }
+ ],
+ "streaming": {
+  "netflix": [
+   {
+    "id": "275102",
+    "mediaType": "tv",
+    "title": "The Scandal",
+    "slug": "/tv/275102",
+    "poster": "/4TU0PcHBIl0wPW5B6aVRGExOnHE.jpg",
+    "backdrop": "/uc1p1PEbEMpdIHqnU9TESNC6Jhp.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.7,
+    "year": "2026",
+    "releaseDate": "2026-09-18",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "15226",
+    "mediaType": "tv",
+    "title": "C.I.D.",
+    "slug": "/tv/15226",
+    "poster": "/3UymnlLfLMKxG8OcFhSnAlnhQfZ.jpg",
+    "backdrop": "/1gZrOa2E9DOohEvSLLBJqus2zGu.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 5.7,
+    "year": "1998",
+    "releaseDate": "1998-01-21",
+    "genreIds": [
+     10759,
+     80,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "4656",
+    "mediaType": "tv",
+    "title": "Raw",
+    "slug": "/tv/4656",
+    "poster": "/dwvW9FclJlicFQkBOlboQ52Vx8y.jpg",
+    "backdrop": "/fvnxFPUsTFMh81cMoIGBrJo8F6z.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.8,
+    "year": "1993",
+    "releaseDate": "1993-01-11",
+    "genreIds": [
+     10764
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "45790",
+    "mediaType": "tv",
+    "title": "JoJo's Bizarre Adventure",
+    "slug": "/tv/45790",
+    "poster": "/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
+    "backdrop": "/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.5,
+    "year": "2012",
+    "releaseDate": "2012-10-06",
+    "genreIds": [
+     16,
+     10759,
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "502",
+    "mediaType": "tv",
+    "title": "Sesame Street",
+    "slug": "/tv/502",
+    "poster": "/14k9BfZ2p4rQBMeJ5crKTfUZVwD.jpg",
+    "backdrop": "/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.1,
+    "year": "1969",
+    "releaseDate": "1969-11-10",
+    "genreIds": [
+     10762,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "65701",
+    "mediaType": "tv",
+    "title": "Good Mythical Morning",
+    "slug": "/tv/65701",
+    "poster": "/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+    "backdrop": "/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.9,
+    "year": "2012",
+    "releaseDate": "2012-01-09",
+    "genreIds": [
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "66732",
+    "mediaType": "tv",
+    "title": "Stranger Things",
+    "slug": "/tv/66732",
+    "poster": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+    "backdrop": "/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.5,
+    "year": "2016",
+    "releaseDate": "2016-07-15",
+    "genreIds": [
+     10759,
+     9648,
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "63174",
+    "mediaType": "tv",
+    "title": "Lucifer",
+    "slug": "/tv/63174",
+    "poster": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+    "backdrop": "/ta5oblpMlEcIPIS2YGcq9XEkWK2.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2016",
+    "releaseDate": "2016-01-25",
+    "genreIds": [
+     80,
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "236235",
+    "mediaType": "tv",
+    "title": "The Gentlemen",
+    "slug": "/tv/236235",
+    "poster": "/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
+    "backdrop": "/yG1wltFmkX5c5ocACKfpX0tp3SY.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.9,
+    "year": "2024",
+    "releaseDate": "2024-03-07",
+    "genreIds": [
+     35,
+     18,
+     80
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "299939",
+    "mediaType": "tv",
+    "title": "Monster: The Lizzie Borden Story",
+    "slug": "/tv/299939",
+    "poster": "/57XScX1aYtKi1LvHYFQLPUxVhTG.jpg",
+    "backdrop": "/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.1,
+    "year": "2026",
+    "releaseDate": "2026-09-17",
+    "genreIds": [
+     18,
+     80
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "4194",
+    "mediaType": "tv",
+    "title": "Star Wars: The Clone Wars",
+    "slug": "/tv/4194",
+    "poster": "/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
+    "backdrop": "/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.5,
+    "year": "2008",
+    "releaseDate": "2008-10-03",
+    "genreIds": [
+     10759,
+     10765,
+     16
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "42009",
+    "mediaType": "tv",
+    "title": "Black Mirror",
+    "slug": "/tv/42009",
+    "poster": "/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg",
+    "backdrop": "/dg3OindVAGZBjlT3xYKqIAdukPL.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.3,
+    "year": "2011",
+    "releaseDate": "2011-12-04",
+    "genreIds": [
+     10765,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "258165",
+    "mediaType": "tv",
+    "title": "East of Eden",
+    "slug": "/tv/258165",
+    "poster": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+    "backdrop": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.2,
+    "year": "2026",
+    "releaseDate": "2026-10-01",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "67178",
+    "mediaType": "tv",
+    "title": "Marvel's The Punisher",
+    "slug": "/tv/67178",
+    "poster": "/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
+    "backdrop": "/9czVEnJemvP6gcJlMEjUeuISL1c.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.2,
+    "year": "2017",
+    "releaseDate": "2017-11-17",
+    "genreIds": [
+     10759,
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "1424",
+    "mediaType": "tv",
+    "title": "Orange Is the New Black",
+    "slug": "/tv/1424",
+    "poster": "/ekaa7YjGPTkFLcPhwWXTnARuCEU.jpg",
+    "backdrop": "/zJiWhsEYCy5BkFCBONoMnUunyZQ.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.6,
+    "year": "2013",
+    "releaseDate": "2013-07-11",
+    "genreIds": [
+     18,
+     35,
+     80
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "65494",
+    "mediaType": "tv",
+    "title": "The Crown",
+    "slug": "/tv/65494",
+    "poster": "/1M876KPjulVwppEpldhdc8V4o68.jpg",
+    "backdrop": "/8VXhcrl5z2I1zEU9X3pkkNrZlD.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.2,
+    "year": "2016",
+    "releaseDate": "2016-11-04",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "61222",
+    "mediaType": "tv",
+    "title": "BoJack Horseman",
+    "slug": "/tv/61222",
+    "poster": "/6JFWzlChcGgLiIUo2COgNlWGFKy.jpg",
+    "backdrop": "/81BCTObfPk0EvarJpUgnGXHvM9x.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.5,
+    "year": "2014",
+    "releaseDate": "2014-08-22",
+    "genreIds": [
+     16,
+     35,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "93405",
+    "mediaType": "tv",
+    "title": "Squid Game",
+    "slug": "/tv/93405",
+    "poster": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+    "backdrop": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.9,
+    "year": "2021",
+    "releaseDate": "2021-09-17",
+    "genreIds": [
+     10759,
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "286801",
+    "mediaType": "tv",
+    "title": "Monster: The Ed Gein Story",
+    "slug": "/tv/286801",
+    "poster": "/iDHzRALtZCzHVmx7uyjTTKvMAPB.jpg",
+    "backdrop": "/cm2oUAPiTE1ERoYYOzzgloQw4YZ.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.3,
+    "year": "2025",
+    "releaseDate": "2025-10-03",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "212907",
+    "mediaType": "tv",
+    "title": "La promesa",
+    "slug": "/tv/212907",
+    "poster": "/y656ZhHU2Hh3bmC5vBtMa2vKpUM.jpg",
+    "backdrop": "/1bUJrX1j5FepXrGM4cOX7vjfsjm.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.6,
+    "year": "2023",
+    "releaseDate": "2023-01-12",
+    "genreIds": [
+     18,
+     9648,
+     10766
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "82452",
+    "mediaType": "tv",
+    "title": "Avatar: The Last Airbender",
+    "slug": "/tv/82452",
+    "poster": "/lzZpWEaqzP0qVA5nkCc5ASbNcSy.jpg",
+    "backdrop": "/aVvRQJ2Ckhlym4uh0YGc166CUoP.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.8,
+    "year": "2024",
+    "releaseDate": "2024-02-22",
+    "genreIds": [
+     10759,
+     10765,
+     18,
+     10751
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "4589",
+    "mediaType": "tv",
+    "title": "Arrested Development",
+    "slug": "/tv/4589",
+    "poster": "/p4r4RD7RsNcJVoz0H6z3dBoTBtW.jpg",
+    "backdrop": "/q9yVRPakPnsIngnXwjW7F9GVcnD.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.9,
+    "year": "2003",
+    "releaseDate": "2003-11-02",
+    "genreIds": [
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "78191",
+    "mediaType": "tv",
+    "title": "You",
+    "slug": "/tv/78191",
+    "poster": "/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
+    "backdrop": "/wY1US9I51xxkwDJXQp6ktmhfh2Z.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.0,
+    "year": "2018",
+    "releaseDate": "2018-09-09",
+    "genreIds": [
+     9648,
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "91239",
+    "mediaType": "tv",
+    "title": "Bridgerton",
+    "slug": "/tv/91239",
+    "poster": "/uXTg565ahu9RwonCX1V2Hex1NU6.jpg",
+    "backdrop": "/6umsRLI7t0ydFwCl0JNEIO0q2LH.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.0,
+    "year": "2020",
+    "releaseDate": "2020-12-25",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   }
+  ],
+  "primevideo": [
+   {
+    "id": "95350",
+    "mediaType": "tv",
+    "title": "Lanterns",
+    "slug": "/tv/95350",
+    "poster": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+    "backdrop": "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2026",
+    "releaseDate": "2026-08-16",
+    "genreIds": [
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "258165",
+    "mediaType": "tv",
+    "title": "East of Eden",
+    "slug": "/tv/258165",
+    "poster": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+    "backdrop": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.1,
+    "year": "2026",
+    "releaseDate": "2026-10-01",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "247718",
+    "mediaType": "tv",
+    "title": "MobLand",
+    "slug": "/tv/247718",
+    "poster": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
+    "backdrop": "/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.5,
+    "year": "2025",
+    "releaseDate": "2025-03-30",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "299939",
+    "mediaType": "tv",
+    "title": "Monster: The Lizzie Borden Story",
+    "slug": "/tv/299939",
+    "poster": "/57XScX1aYtKi1LvHYFQLPUxVhTG.jpg",
+    "backdrop": "/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.1,
+    "year": "2026",
+    "releaseDate": "2026-09-17",
+    "genreIds": [
+     18,
+     80
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "1413",
+    "mediaType": "tv",
+    "title": "American Horror Story",
+    "slug": "/tv/1413",
+    "poster": "/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg",
+    "backdrop": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.1,
+    "year": "2011",
+    "releaseDate": "2011-10-05",
+    "genreIds": [
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "37854",
+    "mediaType": "tv",
+    "title": "One Piece",
+    "slug": "/tv/37854",
+    "poster": "/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "backdrop": "/v38qp4bySLTXYu3MF8r5GD51FN3.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.8,
+    "year": "1999",
+    "releaseDate": "1999-10-20",
+    "genreIds": [
+     10759,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "220542",
+    "mediaType": "tv",
+    "title": "The Apothecary Diaries",
+    "slug": "/tv/220542",
+    "poster": "/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
+    "backdrop": "/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.6,
+    "year": "2023",
+    "releaseDate": "2023-10-22",
+    "genreIds": [
+     16,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "298505",
+    "mediaType": "tv",
+    "title": "Coven Academy",
+    "slug": "/tv/298505",
+    "poster": "/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg",
+    "backdrop": "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.3,
+    "year": "2026",
+    "releaseDate": "2026-10-01",
+    "genreIds": [
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "284558",
+    "mediaType": "tv",
+    "title": "Kill Jackie",
+    "slug": "/tv/284558",
+    "poster": "/vvMpr6wO4EMtA7lqftffTel5c1R.jpg",
+    "backdrop": "/bbX3UIghhjJG6BW7WOGqxn4iySh.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.3,
+    "year": "2026",
+    "releaseDate": "2026-10-02",
+    "genreIds": [
+     18,
+     80
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "615",
+    "mediaType": "tv",
+    "title": "Futurama",
+    "slug": "/tv/615",
+    "poster": "/7RRHbCUtAsVmKI6FEMzZB6Re88P.jpg",
+    "backdrop": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "1999",
+    "releaseDate": "1999-03-28",
+    "genreIds": [
+     16,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "65942",
+    "mediaType": "tv",
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "slug": "/tv/65942",
+    "poster": "/oHqYrPAsIiTD5m4DuxumV4er8BU.jpg",
+    "backdrop": "/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.1,
+    "year": "2016",
+    "releaseDate": "2016-04-04",
+    "genreIds": [
+     16,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "250203",
+    "mediaType": "tv",
+    "title": "Brothers",
+    "slug": "/tv/250203",
+    "poster": "/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg",
+    "backdrop": "/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.2,
+    "year": "2026",
+    "releaseDate": "2026-09-22",
+    "genreIds": [
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "239618",
+    "mediaType": "tv",
+    "title": "American Hostage",
+    "slug": "/tv/239618",
+    "poster": "/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
+    "backdrop": "/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.0,
+    "year": "2026",
+    "releaseDate": "2026-09-20",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "456",
+    "mediaType": "tv",
+    "title": "The Simpsons",
+    "slug": "/tv/456",
+    "poster": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
+    "backdrop": "/qcSHGC5BfoqBoP99PzDIERYG5Qm.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.6,
+    "year": "1989",
+    "releaseDate": "1989-12-17",
+    "genreIds": [
+     16,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "82428",
+    "mediaType": "tv",
+    "title": "All American",
+    "slug": "/tv/82428",
+    "poster": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
+    "backdrop": "/2sAQs9nIhLXcJU7rz8Vq19j8rO0.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.6,
+    "year": "2018",
+    "releaseDate": "2018-10-10",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "1489",
+    "mediaType": "tv",
+    "title": "Jimmy Kimmel Live!",
+    "slug": "/tv/1489",
+    "poster": "/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+    "backdrop": "/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.4,
+    "year": "2003",
+    "releaseDate": "2003-01-26",
+    "genreIds": [
+     10767,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "95480",
+    "mediaType": "tv",
+    "title": "Slow Horses",
+    "slug": "/tv/95480",
+    "poster": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+    "backdrop": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2022",
+    "releaseDate": "2022-04-01",
+    "genreIds": [
+     80,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "47663",
+    "mediaType": "tv",
+    "title": "The Ark",
+    "slug": "/tv/47663",
+    "poster": "/rec774m02XNLSjU9qm5z6UUfMRl.jpg",
+    "backdrop": "/nUEcobWsTpvOh23US0MRZXIU8jt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 5.8,
+    "year": "2023",
+    "releaseDate": "2023-02-01",
+    "genreIds": [
+     10765,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   }
+  ],
+  "hbomax": [
+   {
+    "id": "37854",
+    "mediaType": "tv",
+    "title": "One Piece",
+    "slug": "/tv/37854",
+    "poster": "/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "backdrop": "/v38qp4bySLTXYu3MF8r5GD51FN3.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.8,
+    "year": "1999",
+    "releaseDate": "1999-10-20",
+    "genreIds": [
+     10759,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "220542",
+    "mediaType": "tv",
+    "title": "The Apothecary Diaries",
+    "slug": "/tv/220542",
+    "poster": "/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
+    "backdrop": "/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.6,
+    "year": "2023",
+    "releaseDate": "2023-10-22",
+    "genreIds": [
+     16,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "298505",
+    "mediaType": "tv",
+    "title": "Coven Academy",
+    "slug": "/tv/298505",
+    "poster": "/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg",
+    "backdrop": "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.3,
+    "year": "2026",
+    "releaseDate": "2026-10-01",
+    "genreIds": [
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "284558",
+    "mediaType": "tv",
+    "title": "Kill Jackie",
+    "slug": "/tv/284558",
+    "poster": "/vvMpr6wO4EMtA7lqftffTel5c1R.jpg",
+    "backdrop": "/bbX3UIghhjJG6BW7WOGqxn4iySh.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.3,
+    "year": "2026",
+    "releaseDate": "2026-10-02",
+    "genreIds": [
+     18,
+     80
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "615",
+    "mediaType": "tv",
+    "title": "Futurama",
+    "slug": "/tv/615",
+    "poster": "/7RRHbCUtAsVmKI6FEMzZB6Re88P.jpg",
+    "backdrop": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "1999",
+    "releaseDate": "1999-03-28",
+    "genreIds": [
+     16,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "65942",
+    "mediaType": "tv",
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "slug": "/tv/65942",
+    "poster": "/oHqYrPAsIiTD5m4DuxumV4er8BU.jpg",
+    "backdrop": "/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.1,
+    "year": "2016",
+    "releaseDate": "2016-04-04",
+    "genreIds": [
+     16,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "250203",
+    "mediaType": "tv",
+    "title": "Brothers",
+    "slug": "/tv/250203",
+    "poster": "/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg",
+    "backdrop": "/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.2,
+    "year": "2026",
+    "releaseDate": "2026-09-22",
+    "genreIds": [
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "239618",
+    "mediaType": "tv",
+    "title": "American Hostage",
+    "slug": "/tv/239618",
+    "poster": "/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
+    "backdrop": "/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.0,
+    "year": "2026",
+    "releaseDate": "2026-09-20",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "456",
+    "mediaType": "tv",
+    "title": "The Simpsons",
+    "slug": "/tv/456",
+    "poster": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
+    "backdrop": "/qcSHGC5BfoqBoP99PzDIERYG5Qm.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.6,
+    "year": "1989",
+    "releaseDate": "1989-12-17",
+    "genreIds": [
+     16,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "82428",
+    "mediaType": "tv",
+    "title": "All American",
+    "slug": "/tv/82428",
+    "poster": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
+    "backdrop": "/2sAQs9nIhLXcJU7rz8Vq19j8rO0.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.6,
+    "year": "2018",
+    "releaseDate": "2018-10-10",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "1489",
+    "mediaType": "tv",
+    "title": "Jimmy Kimmel Live!",
+    "slug": "/tv/1489",
+    "poster": "/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+    "backdrop": "/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.4,
+    "year": "2003",
+    "releaseDate": "2003-01-26",
+    "genreIds": [
+     10767,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "95480",
+    "mediaType": "tv",
+    "title": "Slow Horses",
+    "slug": "/tv/95480",
+    "poster": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+    "backdrop": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2022",
+    "releaseDate": "2022-04-01",
+    "genreIds": [
+     80,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "47663",
+    "mediaType": "tv",
+    "title": "The Ark",
+    "slug": "/tv/47663",
+    "poster": "/rec774m02XNLSjU9qm5z6UUfMRl.jpg",
+    "backdrop": "/nUEcobWsTpvOh23US0MRZXIU8jt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 5.8,
+    "year": "2023",
+    "releaseDate": "2023-02-01",
+    "genreIds": [
+     10765,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "253983",
+    "mediaType": "tv",
+    "title": "Women in Blue",
+    "slug": "/tv/253983",
+    "poster": "/9CHpaYUqgFM81e0emaWkfyFyche.jpg",
+    "backdrop": "/v713kGiwYw2amhk6v9lfxvAYncv.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.3,
+    "year": "2024",
+    "releaseDate": "2024-07-30",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "203667",
+    "mediaType": "tv",
+    "title": "Red Queen",
+    "slug": "/tv/203667",
+    "poster": "/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg",
+    "backdrop": "/2SJ6OOyK8tWaKF7W7PzYxOKKStZ.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.8,
+    "year": "2024",
+    "releaseDate": "2024-02-29",
+    "genreIds": [
+     10759,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "80748",
+    "mediaType": "tv",
+    "title": "FBI",
+    "slug": "/tv/80748",
+    "poster": "/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg",
+    "backdrop": "/5DFvscYGpcFaQMJljCic5gbzVe6.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.1,
+    "year": "2018",
+    "releaseDate": "2018-09-25",
+    "genreIds": [
+     80,
+     10759,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "286712",
+    "mediaType": "tv",
+    "title": "Private Eyes West Coast",
+    "slug": "/tv/286712",
+    "poster": "/6eulJ8STxOjTkIpBMAcJBOPuKOw.jpg",
+    "backdrop": "/j5t8hJRdsxwnovaXRAWWy8WmPvH.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.4,
+    "year": "2026",
+    "releaseDate": "2026-09-30",
+    "genreIds": [
+     80,
+     18,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "228026",
+    "mediaType": "tv",
+    "title": "Law & Order Toronto: Criminal Intent",
+    "slug": "/tv/228026",
+    "poster": "/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+    "backdrop": "/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.3,
+    "year": "2024",
+    "releaseDate": "2024-02-22",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   }
+  ],
+  "disney": [
+   {
+    "id": "65942",
+    "mediaType": "tv",
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "slug": "/tv/65942",
+    "poster": "/oHqYrPAsIiTD5m4DuxumV4er8BU.jpg",
+    "backdrop": "/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.1,
+    "year": "2016",
+    "releaseDate": "2016-04-04",
+    "genreIds": [
+     16,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "250203",
+    "mediaType": "tv",
+    "title": "Brothers",
+    "slug": "/tv/250203",
+    "poster": "/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg",
+    "backdrop": "/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.2,
+    "year": "2026",
+    "releaseDate": "2026-09-22",
+    "genreIds": [
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "239618",
+    "mediaType": "tv",
+    "title": "American Hostage",
+    "slug": "/tv/239618",
+    "poster": "/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
+    "backdrop": "/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.0,
+    "year": "2026",
+    "releaseDate": "2026-09-20",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "456",
+    "mediaType": "tv",
+    "title": "The Simpsons",
+    "slug": "/tv/456",
+    "poster": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
+    "backdrop": "/qcSHGC5BfoqBoP99PzDIERYG5Qm.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.6,
+    "year": "1989",
+    "releaseDate": "1989-12-17",
+    "genreIds": [
+     16,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "82428",
+    "mediaType": "tv",
+    "title": "All American",
+    "slug": "/tv/82428",
+    "poster": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
+    "backdrop": "/2sAQs9nIhLXcJU7rz8Vq19j8rO0.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.6,
+    "year": "2018",
+    "releaseDate": "2018-10-10",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "1489",
+    "mediaType": "tv",
+    "title": "Jimmy Kimmel Live!",
+    "slug": "/tv/1489",
+    "poster": "/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+    "backdrop": "/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.4,
+    "year": "2003",
+    "releaseDate": "2003-01-26",
+    "genreIds": [
+     10767,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "95480",
+    "mediaType": "tv",
+    "title": "Slow Horses",
+    "slug": "/tv/95480",
+    "poster": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+    "backdrop": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2022",
+    "releaseDate": "2022-04-01",
+    "genreIds": [
+     80,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "47663",
+    "mediaType": "tv",
+    "title": "The Ark",
+    "slug": "/tv/47663",
+    "poster": "/rec774m02XNLSjU9qm5z6UUfMRl.jpg",
+    "backdrop": "/nUEcobWsTpvOh23US0MRZXIU8jt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 5.8,
+    "year": "2023",
+    "releaseDate": "2023-02-01",
+    "genreIds": [
+     10765,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "253983",
+    "mediaType": "tv",
+    "title": "Women in Blue",
+    "slug": "/tv/253983",
+    "poster": "/9CHpaYUqgFM81e0emaWkfyFyche.jpg",
+    "backdrop": "/v713kGiwYw2amhk6v9lfxvAYncv.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.3,
+    "year": "2024",
+    "releaseDate": "2024-07-30",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "203667",
+    "mediaType": "tv",
+    "title": "Red Queen",
+    "slug": "/tv/203667",
+    "poster": "/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg",
+    "backdrop": "/2SJ6OOyK8tWaKF7W7PzYxOKKStZ.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.8,
+    "year": "2024",
+    "releaseDate": "2024-02-29",
+    "genreIds": [
+     10759,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "80748",
+    "mediaType": "tv",
+    "title": "FBI",
+    "slug": "/tv/80748",
+    "poster": "/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg",
+    "backdrop": "/5DFvscYGpcFaQMJljCic5gbzVe6.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.1,
+    "year": "2018",
+    "releaseDate": "2018-09-25",
+    "genreIds": [
+     80,
+     10759,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "286712",
+    "mediaType": "tv",
+    "title": "Private Eyes West Coast",
+    "slug": "/tv/286712",
+    "poster": "/6eulJ8STxOjTkIpBMAcJBOPuKOw.jpg",
+    "backdrop": "/j5t8hJRdsxwnovaXRAWWy8WmPvH.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.4,
+    "year": "2026",
+    "releaseDate": "2026-09-30",
+    "genreIds": [
+     80,
+     18,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "228026",
+    "mediaType": "tv",
+    "title": "Law & Order Toronto: Criminal Intent",
+    "slug": "/tv/228026",
+    "poster": "/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+    "backdrop": "/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.3,
+    "year": "2024",
+    "releaseDate": "2024-02-22",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "288673",
+    "mediaType": "tv",
+    "title": "Carrie",
+    "slug": "/tv/288673",
+    "poster": "/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg",
+    "backdrop": "/x4HuDkzyAfGfZpuJURU8mg43q6H.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.7,
+    "year": "2026",
+    "releaseDate": "2026-10-07",
+    "genreIds": [
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "285322",
+    "mediaType": "tv",
+    "title": "Below",
+    "slug": "/tv/285322",
+    "poster": "/qadm9To9UfMVenVzGVLt0m0iuxv.jpg",
+    "backdrop": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 10.0,
+    "year": "2026",
+    "releaseDate": "2026-10-08",
+    "genreIds": [
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "284833",
+    "mediaType": "tv",
+    "title": "Avatar: Seven Havens",
+    "slug": "/tv/284833",
+    "poster": "/vYNar1VtdNyQXXUt16uPbIT6wzr.jpg",
+    "backdrop": "/ztxiwR10U7ezD16XBLn8xYryYYq.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": null,
+    "year": "2026",
+    "releaseDate": "2026-10-09",
+    "genreIds": [
+     16,
+     10759,
+     10765,
+     10751
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "213375",
+    "mediaType": "tv",
+    "title": "VisionQuest",
+    "slug": "/tv/213375",
+    "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+    "backdrop": "/v50p9hearMiu6BlYfp4O7FACmXl.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": null,
+    "year": "2026",
+    "releaseDate": "2026-10-14",
+    "genreIds": [
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "289892",
+    "mediaType": "tv",
+    "title": "Helluva Boss",
+    "slug": "/tv/289892",
+    "poster": "/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg",
+    "backdrop": "/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.9,
+    "year": "2020",
+    "releaseDate": "2020-10-31",
+    "genreIds": [
+     16,
+     35,
+     18,
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   }
+  ],
+  "appletv": [
+   {
+    "id": "1489",
+    "mediaType": "tv",
+    "title": "Jimmy Kimmel Live!",
+    "slug": "/tv/1489",
+    "poster": "/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+    "backdrop": "/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.4,
+    "year": "2003",
+    "releaseDate": "2003-01-26",
+    "genreIds": [
+     10767,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "95480",
+    "mediaType": "tv",
+    "title": "Slow Horses",
+    "slug": "/tv/95480",
+    "poster": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+    "backdrop": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2022",
+    "releaseDate": "2022-04-01",
+    "genreIds": [
+     80,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "47663",
+    "mediaType": "tv",
+    "title": "The Ark",
+    "slug": "/tv/47663",
+    "poster": "/rec774m02XNLSjU9qm5z6UUfMRl.jpg",
+    "backdrop": "/nUEcobWsTpvOh23US0MRZXIU8jt.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 5.8,
+    "year": "2023",
+    "releaseDate": "2023-02-01",
+    "genreIds": [
+     10765,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "253983",
+    "mediaType": "tv",
+    "title": "Women in Blue",
+    "slug": "/tv/253983",
+    "poster": "/9CHpaYUqgFM81e0emaWkfyFyche.jpg",
+    "backdrop": "/v713kGiwYw2amhk6v9lfxvAYncv.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.3,
+    "year": "2024",
+    "releaseDate": "2024-07-30",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "203667",
+    "mediaType": "tv",
+    "title": "Red Queen",
+    "slug": "/tv/203667",
+    "poster": "/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg",
+    "backdrop": "/2SJ6OOyK8tWaKF7W7PzYxOKKStZ.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.8,
+    "year": "2024",
+    "releaseDate": "2024-02-29",
+    "genreIds": [
+     10759,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "80748",
+    "mediaType": "tv",
+    "title": "FBI",
+    "slug": "/tv/80748",
+    "poster": "/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg",
+    "backdrop": "/5DFvscYGpcFaQMJljCic5gbzVe6.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.1,
+    "year": "2018",
+    "releaseDate": "2018-09-25",
+    "genreIds": [
+     80,
+     10759,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "286712",
+    "mediaType": "tv",
+    "title": "Private Eyes West Coast",
+    "slug": "/tv/286712",
+    "poster": "/6eulJ8STxOjTkIpBMAcJBOPuKOw.jpg",
+    "backdrop": "/j5t8hJRdsxwnovaXRAWWy8WmPvH.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.4,
+    "year": "2026",
+    "releaseDate": "2026-09-30",
+    "genreIds": [
+     80,
+     18,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "228026",
+    "mediaType": "tv",
+    "title": "Law & Order Toronto: Criminal Intent",
+    "slug": "/tv/228026",
+    "poster": "/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+    "backdrop": "/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.3,
+    "year": "2024",
+    "releaseDate": "2024-02-22",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "288673",
+    "mediaType": "tv",
+    "title": "Carrie",
+    "slug": "/tv/288673",
+    "poster": "/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg",
+    "backdrop": "/x4HuDkzyAfGfZpuJURU8mg43q6H.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.7,
+    "year": "2026",
+    "releaseDate": "2026-10-07",
+    "genreIds": [
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "285322",
+    "mediaType": "tv",
+    "title": "Below",
+    "slug": "/tv/285322",
+    "poster": "/qadm9To9UfMVenVzGVLt0m0iuxv.jpg",
+    "backdrop": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 10.0,
+    "year": "2026",
+    "releaseDate": "2026-10-08",
+    "genreIds": [
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "284833",
+    "mediaType": "tv",
+    "title": "Avatar: Seven Havens",
+    "slug": "/tv/284833",
+    "poster": "/vYNar1VtdNyQXXUt16uPbIT6wzr.jpg",
+    "backdrop": "/ztxiwR10U7ezD16XBLn8xYryYYq.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": null,
+    "year": "2026",
+    "releaseDate": "2026-10-09",
+    "genreIds": [
+     16,
+     10759,
+     10765,
+     10751
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "213375",
+    "mediaType": "tv",
+    "title": "VisionQuest",
+    "slug": "/tv/213375",
+    "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+    "backdrop": "/v50p9hearMiu6BlYfp4O7FACmXl.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": null,
+    "year": "2026",
+    "releaseDate": "2026-10-14",
+    "genreIds": [
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "289892",
+    "mediaType": "tv",
+    "title": "Helluva Boss",
+    "slug": "/tv/289892",
+    "poster": "/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg",
+    "backdrop": "/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.9,
+    "year": "2020",
+    "releaseDate": "2020-10-31",
+    "genreIds": [
+     16,
+     35,
+     18,
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "203857",
+    "mediaType": "tv",
+    "title": "The Diplomat",
+    "slug": "/tv/203857",
+    "poster": "/cOKXV0FalCYixNmZYCfHXgyQ0VX.jpg",
+    "backdrop": "/v6f9FUDDQfGIv8MLRQwlL0zvRjI.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.0,
+    "year": "2023",
+    "releaseDate": "2023-04-20",
+    "genreIds": [
+     18,
+     10768
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "213562",
+    "mediaType": "tv",
+    "title": "Crystal Lake",
+    "slug": "/tv/213562",
+    "poster": "/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+    "backdrop": "/3qbNgNqMFrEEhIl43UKD9oxCkOw.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2026",
+    "releaseDate": "2026-10-15",
+    "genreIds": [
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "234310",
+    "mediaType": "tv",
+    "title": "Where's Wanda?",
+    "slug": "/tv/234310",
+    "poster": "/e31KF5NW91PA5ktaxqGMmx6myea.jpg",
+    "backdrop": "/ihFgxTeZ8nenm8Y41tuGH7tCeTU.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.5,
+    "year": "2024",
+    "releaseDate": "2024-10-02",
+    "genreIds": [
+     18,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "96677",
+    "mediaType": "tv",
+    "title": "Lupin",
+    "slug": "/tv/96677",
+    "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+    "backdrop": "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.5,
+    "year": "2021",
+    "releaseDate": "2021-01-08",
+    "genreIds": [
+     80,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "299167",
+    "mediaType": "tv",
+    "title": "Dutton Ranch",
+    "slug": "/tv/299167",
+    "poster": "/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
+    "backdrop": "/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 9.1,
+    "year": "2026",
+    "releaseDate": "2026-05-15",
+    "genreIds": [
+     37,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   }
+  ],
+  "paramount": [
+   {
+    "id": "80748",
+    "mediaType": "tv",
+    "title": "FBI",
+    "slug": "/tv/80748",
+    "poster": "/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg",
+    "backdrop": "/5DFvscYGpcFaQMJljCic5gbzVe6.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.1,
+    "year": "2018",
+    "releaseDate": "2018-09-25",
+    "genreIds": [
+     80,
+     10759,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "286712",
+    "mediaType": "tv",
+    "title": "Private Eyes West Coast",
+    "slug": "/tv/286712",
+    "poster": "/6eulJ8STxOjTkIpBMAcJBOPuKOw.jpg",
+    "backdrop": "/j5t8hJRdsxwnovaXRAWWy8WmPvH.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.4,
+    "year": "2026",
+    "releaseDate": "2026-09-30",
+    "genreIds": [
+     80,
+     18,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "228026",
+    "mediaType": "tv",
+    "title": "Law & Order Toronto: Criminal Intent",
+    "slug": "/tv/228026",
+    "poster": "/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+    "backdrop": "/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.3,
+    "year": "2024",
+    "releaseDate": "2024-02-22",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "288673",
+    "mediaType": "tv",
+    "title": "Carrie",
+    "slug": "/tv/288673",
+    "poster": "/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg",
+    "backdrop": "/x4HuDkzyAfGfZpuJURU8mg43q6H.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.7,
+    "year": "2026",
+    "releaseDate": "2026-10-07",
+    "genreIds": [
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "285322",
+    "mediaType": "tv",
+    "title": "Below",
+    "slug": "/tv/285322",
+    "poster": "/qadm9To9UfMVenVzGVLt0m0iuxv.jpg",
+    "backdrop": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 10.0,
+    "year": "2026",
+    "releaseDate": "2026-10-08",
+    "genreIds": [
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "284833",
+    "mediaType": "tv",
+    "title": "Avatar: Seven Havens",
+    "slug": "/tv/284833",
+    "poster": "/vYNar1VtdNyQXXUt16uPbIT6wzr.jpg",
+    "backdrop": "/ztxiwR10U7ezD16XBLn8xYryYYq.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": null,
+    "year": "2026",
+    "releaseDate": "2026-10-09",
+    "genreIds": [
+     16,
+     10759,
+     10765,
+     10751
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "213375",
+    "mediaType": "tv",
+    "title": "VisionQuest",
+    "slug": "/tv/213375",
+    "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+    "backdrop": "/v50p9hearMiu6BlYfp4O7FACmXl.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": null,
+    "year": "2026",
+    "releaseDate": "2026-10-14",
+    "genreIds": [
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "289892",
+    "mediaType": "tv",
+    "title": "Helluva Boss",
+    "slug": "/tv/289892",
+    "poster": "/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg",
+    "backdrop": "/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.9,
+    "year": "2020",
+    "releaseDate": "2020-10-31",
+    "genreIds": [
+     16,
+     35,
+     18,
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "203857",
+    "mediaType": "tv",
+    "title": "The Diplomat",
+    "slug": "/tv/203857",
+    "poster": "/cOKXV0FalCYixNmZYCfHXgyQ0VX.jpg",
+    "backdrop": "/v6f9FUDDQfGIv8MLRQwlL0zvRjI.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.0,
+    "year": "2023",
+    "releaseDate": "2023-04-20",
+    "genreIds": [
+     18,
+     10768
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "213562",
+    "mediaType": "tv",
+    "title": "Crystal Lake",
+    "slug": "/tv/213562",
+    "poster": "/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+    "backdrop": "/3qbNgNqMFrEEhIl43UKD9oxCkOw.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2026",
+    "releaseDate": "2026-10-15",
+    "genreIds": [
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "234310",
+    "mediaType": "tv",
+    "title": "Where's Wanda?",
+    "slug": "/tv/234310",
+    "poster": "/e31KF5NW91PA5ktaxqGMmx6myea.jpg",
+    "backdrop": "/ihFgxTeZ8nenm8Y41tuGH7tCeTU.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.5,
+    "year": "2024",
+    "releaseDate": "2024-10-02",
+    "genreIds": [
+     18,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "96677",
+    "mediaType": "tv",
+    "title": "Lupin",
+    "slug": "/tv/96677",
+    "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+    "backdrop": "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.5,
+    "year": "2021",
+    "releaseDate": "2021-01-08",
+    "genreIds": [
+     80,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "299167",
+    "mediaType": "tv",
+    "title": "Dutton Ranch",
+    "slug": "/tv/299167",
+    "poster": "/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
+    "backdrop": "/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 9.1,
+    "year": "2026",
+    "releaseDate": "2026-05-15",
+    "genreIds": [
+     37,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "1396",
+    "mediaType": "tv",
+    "title": "Breaking Bad",
+    "slug": "/tv/1396",
+    "poster": "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+    "backdrop": "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 9.0,
+    "year": "2008",
+    "releaseDate": "2008-01-20",
+    "genreIds": [
+     18,
+     80
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "273240",
+    "mediaType": "tv",
+    "title": "Off Campus",
+    "slug": "/tv/273240",
+    "poster": "/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
+    "backdrop": "/3ANXZWhhcqPAh0q6nRZ979TIwxC.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.9,
+    "year": "2026",
+    "releaseDate": "2026-05-13",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "245026",
+    "mediaType": "tv",
+    "title": "Wizards Beyond Waverly Place",
+    "slug": "/tv/245026",
+    "poster": "/5hrBpjFzIqmN9k7QxEC610gwZGw.jpg",
+    "backdrop": "/TxicZcsiP9VHYXMYHm4IEHnwv9.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.8,
+    "year": "2024",
+    "releaseDate": "2024-10-29",
+    "genreIds": [
+     35,
+     10765,
+     10751
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "85077",
+    "mediaType": "tv",
+    "title": "The Chosen",
+    "slug": "/tv/85077",
+    "poster": "/dqVUFuNrMFWt7uGNWlpo91VKYOI.jpg",
+    "backdrop": "/3siv3RaQrdr2tQiv9jHq71sLlzo.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.8,
+    "year": "2019",
+    "releaseDate": "2019-04-21",
+    "genreIds": [
+     10759,
+     10751,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "250307",
+    "mediaType": "tv",
+    "title": "The Pitt",
+    "slug": "/tv/250307",
+    "poster": "/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+    "backdrop": "/z3BkMbCy5ajZPMyKEUwsPHuz2cV.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.7,
+    "year": "2025",
+    "releaseDate": "2025-01-09",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   }
+  ],
+  "hulu": [
+   {
+    "id": "284833",
+    "mediaType": "tv",
+    "title": "Avatar: Seven Havens",
+    "slug": "/tv/284833",
+    "poster": "/vYNar1VtdNyQXXUt16uPbIT6wzr.jpg",
+    "backdrop": "/ztxiwR10U7ezD16XBLn8xYryYYq.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": null,
+    "year": "2026",
+    "releaseDate": "2026-10-09",
+    "genreIds": [
+     16,
+     10759,
+     10765,
+     10751
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "213375",
+    "mediaType": "tv",
+    "title": "VisionQuest",
+    "slug": "/tv/213375",
+    "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+    "backdrop": "/v50p9hearMiu6BlYfp4O7FACmXl.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": null,
+    "year": "2026",
+    "releaseDate": "2026-10-14",
+    "genreIds": [
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "289892",
+    "mediaType": "tv",
+    "title": "Helluva Boss",
+    "slug": "/tv/289892",
+    "poster": "/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg",
+    "backdrop": "/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.9,
+    "year": "2020",
+    "releaseDate": "2020-10-31",
+    "genreIds": [
+     16,
+     35,
+     18,
+     10765
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "203857",
+    "mediaType": "tv",
+    "title": "The Diplomat",
+    "slug": "/tv/203857",
+    "poster": "/cOKXV0FalCYixNmZYCfHXgyQ0VX.jpg",
+    "backdrop": "/v6f9FUDDQfGIv8MLRQwlL0zvRjI.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.0,
+    "year": "2023",
+    "releaseDate": "2023-04-20",
+    "genreIds": [
+     18,
+     10768
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "213562",
+    "mediaType": "tv",
+    "title": "Crystal Lake",
+    "slug": "/tv/213562",
+    "poster": "/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+    "backdrop": "/3qbNgNqMFrEEhIl43UKD9oxCkOw.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.4,
+    "year": "2026",
+    "releaseDate": "2026-10-15",
+    "genreIds": [
+     9648,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "234310",
+    "mediaType": "tv",
+    "title": "Where's Wanda?",
+    "slug": "/tv/234310",
+    "poster": "/e31KF5NW91PA5ktaxqGMmx6myea.jpg",
+    "backdrop": "/ihFgxTeZ8nenm8Y41tuGH7tCeTU.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 6.5,
+    "year": "2024",
+    "releaseDate": "2024-10-02",
+    "genreIds": [
+     18,
+     35
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "96677",
+    "mediaType": "tv",
+    "title": "Lupin",
+    "slug": "/tv/96677",
+    "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+    "backdrop": "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 7.5,
+    "year": "2021",
+    "releaseDate": "2021-01-08",
+    "genreIds": [
+     80,
+     18,
+     9648
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "299167",
+    "mediaType": "tv",
+    "title": "Dutton Ranch",
+    "slug": "/tv/299167",
+    "poster": "/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
+    "backdrop": "/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 9.1,
+    "year": "2026",
+    "releaseDate": "2026-05-15",
+    "genreIds": [
+     37,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "1396",
+    "mediaType": "tv",
+    "title": "Breaking Bad",
+    "slug": "/tv/1396",
+    "poster": "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+    "backdrop": "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 9.0,
+    "year": "2008",
+    "releaseDate": "2008-01-20",
+    "genreIds": [
+     18,
+     80
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "273240",
+    "mediaType": "tv",
+    "title": "Off Campus",
+    "slug": "/tv/273240",
+    "poster": "/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
+    "backdrop": "/3ANXZWhhcqPAh0q6nRZ979TIwxC.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.9,
+    "year": "2026",
+    "releaseDate": "2026-05-13",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "245026",
+    "mediaType": "tv",
+    "title": "Wizards Beyond Waverly Place",
+    "slug": "/tv/245026",
+    "poster": "/5hrBpjFzIqmN9k7QxEC610gwZGw.jpg",
+    "backdrop": "/TxicZcsiP9VHYXMYHm4IEHnwv9.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.8,
+    "year": "2024",
+    "releaseDate": "2024-10-29",
+    "genreIds": [
+     35,
+     10765,
+     10751
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "85077",
+    "mediaType": "tv",
+    "title": "The Chosen",
+    "slug": "/tv/85077",
+    "poster": "/dqVUFuNrMFWt7uGNWlpo91VKYOI.jpg",
+    "backdrop": "/3siv3RaQrdr2tQiv9jHq71sLlzo.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.8,
+    "year": "2019",
+    "releaseDate": "2019-04-21",
+    "genreIds": [
+     10759,
+     10751,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "250307",
+    "mediaType": "tv",
+    "title": "The Pitt",
+    "slug": "/tv/250307",
+    "poster": "/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+    "backdrop": "/z3BkMbCy5ajZPMyKEUwsPHuz2cV.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.7,
+    "year": "2025",
+    "releaseDate": "2025-01-09",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "87108",
+    "mediaType": "tv",
+    "title": "Chernobyl",
+    "slug": "/tv/87108",
+    "poster": "/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
+    "backdrop": "/900tHlUYUkp7Ol04XFSoAaEIXcT.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.7,
+    "year": "2019",
+    "releaseDate": "2019-05-06",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "60059",
+    "mediaType": "tv",
+    "title": "Better Call Saul",
+    "slug": "/tv/60059",
+    "poster": "/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+    "backdrop": "/rfxryDIv8huejujg4JueDJx8zCz.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.7,
+    "year": "2015",
+    "releaseDate": "2015-02-08",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "301507",
+    "mediaType": "tv",
+    "title": "Heated Rivalry",
+    "slug": "/tv/301507",
+    "poster": "/3YCKbtAkYWCMDLHvkUjGhG7eWoS.jpg",
+    "backdrop": "/3vuBfAuAltIR6UdANUQ1lLXOeia.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.7,
+    "year": "2025",
+    "releaseDate": "2025-11-28",
+    "genreIds": [
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "1398",
+    "mediaType": "tv",
+    "title": "The Sopranos",
+    "slug": "/tv/1398",
+    "poster": "/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
+    "backdrop": "/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.7,
+    "year": "1999",
+    "releaseDate": "1999-01-10",
+    "genreIds": [
+     80,
+     18
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   },
+   {
+    "id": "70785",
+    "mediaType": "tv",
+    "title": "Anne with an E",
+    "slug": "/tv/70785",
+    "poster": "/6P6tXhjT5tK3qOXzxF9OMLlG7iz.jpg",
+    "backdrop": "/ywQtHG17LZhAFZyZtBflhtFMtJ7.jpg",
+    "logo": null,
+    "overview": null,
+    "rating": 8.7,
+    "year": "2017",
+    "releaseDate": "2017-03-19",
+    "genreIds": [
+     18,
+     10751
+    ],
+    "tag": null,
+    "episodeCode": null,
+    "episodeAirDate": null
+   }
+  ]
+ }
+}

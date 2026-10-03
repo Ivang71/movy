@@ -1,0 +1,14 @@
+{
+  "name": "Movy",
+  "short_name": "Movy",
+  "description": "Browse movies, series and anime with trailers, cast and release calendars.",
+  "theme_color": "#dc2626",
+  "background_color": "#05070a",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    { "src": "/icon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

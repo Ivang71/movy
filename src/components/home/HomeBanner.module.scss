@@ -1,0 +1,408 @@
+.heroRoot {
+  position: relative;
+}
+
+.billboard {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  min-height: 420px;
+  overflow: hidden;
+  background: var(--background);
+  user-select: none;
+  touch-action: pan-y;
+  cursor: grab;
+
+  a,
+  button {
+    cursor: pointer;
+  }
+}
+@media (min-width: 768px) {
+  .billboard {
+    height: 85vh;
+  }
+}
+.dragging {
+  cursor: grabbing;
+}
+
+.track {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  will-change: opacity;
+  pointer-events: none;
+}
+.slideCurrent {
+  z-index: 2;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.backdropWrap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(#000 0% 58%, rgba(0, 0, 0, 0.84) 72%, rgba(0, 0, 0, 0.6) 82%, rgba(0, 0, 0, 0.36) 90%, rgba(0, 0, 0, 0.16) 96%, transparent 100%);
+  mask-image: linear-gradient(#000 0% 58%, rgba(0, 0, 0, 0.84) 72%, rgba(0, 0, 0, 0.6) 82%, rgba(0, 0, 0, 0.36) 90%, rgba(0, 0, 0, 0.16) 96%, transparent 100%);
+}
+
+.backdropImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28%;
+  transform: scale(1.02);
+  transition: transform 9s linear;
+}
+.slideCurrent .backdropImg {
+  transform: scale(1.08);
+}
+
+.vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(5, 7, 10, 0) 50%, rgba(5, 7, 10, 0.12) 64%, rgba(5, 7, 10, 0.28) 76%, rgba(5, 7, 10, 0.46) 86%, rgba(5, 7, 10, 0.64) 94%, rgba(5, 7, 10, 0.78) 100%),
+    linear-gradient(90deg, rgba(5, 7, 10, 0.72) 0%, rgba(5, 7, 10, 0.52) 16%, rgba(5, 7, 10, 0.34) 32%, rgba(5, 7, 10, 0.19) 46%, rgba(5, 7, 10, 0.09) 57%, rgba(5, 7, 10, 0.03) 64%, rgba(5, 7, 10, 0) 70%);
+}
+
+.seamFade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  height: 140px;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(5, 7, 10, 0) 0%, rgba(5, 7, 10, 0) 48%, rgba(5, 7, 10, 0.16) 62%, rgba(5, 7, 10, 0.4) 74%, rgba(5, 7, 10, 0.68) 86%, rgba(5, 7, 10, 0.9) 94%, var(--background) 100%);
+}
+
+.content {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 64px;
+}
+@media (min-width: 768px) {
+  .content {
+    padding-bottom: 14vh;
+  }
+}
+.contentDetails {
+  z-index: 5;
+  padding-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .contentDetails {
+    padding-bottom: 10vh;
+  }
+}
+
+.stack {
+  min-width: 0;
+  max-width: 560px;
+}
+
+.titleBox {
+  position: relative;
+  width: min(340px, 70vw);
+  height: 96px;
+}
+@media (min-width: 768px) {
+  .titleBox {
+    width: min(420px, 36vw);
+    height: 140px;
+  }
+}
+
+.titleFallback {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+  transition: opacity 0.35s;
+}
+@media (min-width: 768px) {
+  .titleFallback {
+    font-size: 3rem;
+  }
+}
+.titleHidden {
+  opacity: 0;
+}
+
+.titleLogo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left bottom;
+  opacity: 0;
+  filter: drop-shadow(0 10px 28px rgba(0, 0, 0, 0.6));
+  transform: translateY(6px);
+  transition:
+    opacity 0.6s,
+    transform 0.6s;
+}
+.titleLogoVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ctaRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+/* Hero copy */
+.attributes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 0;
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+@media (min-width: 768px) {
+  .attributes {
+    margin-top: 16px;
+    font-size: 15px;
+  }
+}
+.fact {
+  display: inline-flex;
+  align-items: center;
+}
+.factDot {
+  margin: 0 10px;
+  color: rgba(255, 255, 255, 0.38);
+  font-weight: 500;
+}
+.score {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.scoreStar {
+  flex-shrink: 0;
+  color: var(--primary);
+  fill: var(--primary);
+}
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 0;
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+@media (min-width: 768px) {
+  .genres {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+}
+.genreDot {
+  margin: 0 8px;
+  color: rgba(255, 255, 255, 0.32);
+}
+.description {
+  display: -webkit-box;
+  max-width: 520px;
+  margin-top: 12px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+@media (min-width: 768px) {
+  .description {
+    font-size: 15px;
+  }
+}
+
+/* Callouts + markers */
+.calloutsTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 41;
+  display: flex;
+  align-items: center;
+  height: 68px;
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .calloutsTop {
+    display: none;
+  }
+}
+.calloutsBottom {
+  display: none;
+}
+@media (min-width: 768px) {
+  .calloutsBottom {
+    display: block;
+  }
+}
+.bottomChrome {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  z-index: 5;
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .bottomChrome {
+    bottom: 14px;
+  }
+}
+.bottomBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0;
+  & > * {
+    pointer-events: auto;
+  }
+}
+@media (min-width: 768px) {
+  .bottomBar {
+    gap: 24px;
+  }
+}
+.markers {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0;
+}
+.marker {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  transition: width 0.25s;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    right: 4px;
+    height: 3px;
+    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.32);
+    transform: translateY(-50%);
+    transition: background 0.25s;
+  }
+}
+.markerActive {
+  width: 30px;
+  &::after {
+    background: #fff;
+  }
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 32px;
+  padding: 0 12px 0 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.38);
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .pill {
+    gap: 9px;
+    height: 34px;
+    padding: 0 14px 0 11px;
+  }
+}
+.pillIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: #ff5a7a;
+}
+@media (min-width: 768px) {
+  .pillIcon {
+    width: 18px;
+    height: 18px;
+  }
+}
+.pillLabel {
+  color: #fff;
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+@media (min-width: 768px) {
+  .pillLabel {
+    font-size: 13.5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide,
+  .backdropImg,
+  .titleLogo {
+    transition: none;
+  }
+  .slideCurrent .backdropImg {
+    transform: none;
+  }
+}

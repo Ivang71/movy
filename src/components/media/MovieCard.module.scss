@@ -1,0 +1,210 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: var(--text-primary);
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--surface-1);
+  user-select: none;
+  transition:
+    border-color 0.25s,
+    box-shadow 0.25s;
+}
+
+.placeholder {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(135deg, var(--surface-1) 0%, var(--surface-2) 100%);
+}
+
+.poster {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  opacity: 0;
+}
+.posterLoaded {
+  opacity: 1;
+  transition:
+    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.35s ease;
+}
+
+.filter {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Landscape (16:9 backdrop) on desktop, portrait poster on mobile — the default rail behaviour */
+@media screen and (min-width: 768px) {
+  .landscape .image {
+    aspect-ratio: 16 / 9;
+  }
+  .landscape .poster {
+    object-position: center center;
+  }
+}
+
+.portrait .image {
+  aspect-ratio: 2 / 3 !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .poster {
+    transform: scale(1.06);
+  }
+  .card:hover .image {
+    border-color: rgba(238, 241, 246, 0.22);
+  }
+  .card:hover .filter {
+    background: linear-gradient(transparent 0%, rgba(5, 7, 10, 0.3) 60%, rgba(5, 7, 10, 0.92) 100%);
+  }
+}
+
+@media (hover: none) {
+  .image {
+    transition: transform 0.12s;
+  }
+  .image:active {
+    transform: scale(0.97);
+  }
+}
+
+/* Rank badge (Top 10) */
+.rank {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 36px;
+  padding: 5px 2px 4px;
+  color: #fff;
+  font-weight: 800;
+  background: var(--primary);
+  border-bottom-right-radius: 6px;
+  transform: translateZ(0);
+}
+.rankLabel {
+  font-size: 8px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.rankNum {
+  margin-top: 2px;
+  font-size: 13px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Bottom tag ("Recently added") */
+.tag {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  transform: translateZ(0);
+}
+.tagSolid {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 4px 7px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  background: var(--primary);
+  border-radius: 4px 4px 0 0;
+}
+@media screen and (max-width: 767.98px) {
+  .tagSolid {
+    font-size: 9px;
+    letter-spacing: 0;
+    padding: 4px 6px;
+  }
+}
+
+/* Continue-watching progress */
+.progress {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  z-index: 6;
+  height: 3px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.28);
+}
+.progressBar {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--primary);
+}
+
+/* Corner action (watchlist toggle), desktop only */
+.corner {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .corner {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    color: var(--text-primary);
+    background: rgba(5, 7, 10, 0.72);
+    border: 1px solid rgba(238, 241, 246, 0.08);
+    border-radius: 50%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition:
+      opacity 0.2s,
+      background 0.2s,
+      border-color 0.2s;
+  }
+  .card:hover .corner,
+  .corner:focus-visible,
+  .cornerOn {
+    opacity: 1;
+  }
+  .corner:hover {
+    background: rgba(5, 7, 10, 0.88);
+    border-color: rgba(220, 38, 38, 0.4);
+  }
+}

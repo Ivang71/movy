@@ -1,0 +1,27 @@
+import { type ReactNode } from "react";
+import { Header } from "./Header";
+import { Dock } from "./Dock";
+import { Footer } from "./Footer";
+import { SearchOverlay } from "@/components/layout/SearchOverlay";
+import { AuthModal } from "@/components/auth/AuthModal";
+import { Toast } from "@/components/ui/Toast";
+
+export function Layout({ children }: { children: ReactNode }) {
+  return (
+    <>
+      <Header />
+      <Dock />
+      <div>
+        <div className="overflow-x-hidden scrollbar-styles">
+          <div className="relative flex flex-col min-h-dvh">
+            <main className="relative z-[1] flex-1 pb-28 md:pb-8 md:pt-0">{children}</main>
+            <Footer />
+          </div>
+        </div>
+      </div>
+      <SearchOverlay />
+      <AuthModal />
+      <Toast />
+    </>
+  );
+}

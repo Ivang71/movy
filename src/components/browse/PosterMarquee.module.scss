@@ -1,0 +1,115 @@
+.wall {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  justify-content: stretch;
+  gap: 0.7rem;
+  width: 100%;
+  height: 100%;
+  padding: 0 0.75rem 0 0.35rem;
+}
+.track {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 0.7rem;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  &:nth-child(n + 4) {
+    display: none;
+  }
+}
+@media (min-width: 640px) {
+  .track:nth-child(-n + 5) {
+    display: flex;
+  }
+}
+@media (min-width: 1024px) {
+  .track:nth-child(-n + 7) {
+    display: flex;
+  }
+}
+@media (min-width: 1536px) {
+  .track:nth-child(-n + 8) {
+    display: flex;
+  }
+}
+@media (min-width: 1920px) {
+  .track {
+    display: flex;
+  }
+}
+.rail {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 0.7rem;
+  animation: marqueeVertical var(--duration, 40s) linear infinite;
+}
+.reverse .rail {
+  animation-direction: reverse;
+}
+.offset .rail {
+  animation-delay: calc(var(--duration) * -0.32);
+}
+.poster {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.85rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.fadeTop,
+.fadeBottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 28%;
+  pointer-events: none;
+}
+.fadeTop {
+  top: 0;
+  background: linear-gradient(#05070a 0%, transparent 100%);
+}
+.fadeBottom {
+  bottom: 0;
+  background: linear-gradient(transparent 0%, #05070a 100%);
+}
+.banner .row {
+  gap: 0.75rem;
+  padding: 0;
+}
+.banner .track:nth-child(n + 4),
+.banner .fadeTop,
+.banner .fadeBottom {
+  display: none !important;
+}
+@keyframes marqueeVertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - 0.7rem));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rail {
+    animation: none;
+  }
+}

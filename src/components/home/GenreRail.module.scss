@@ -1,0 +1,67 @@
+.card {
+  position: relative;
+  display: block;
+  width: 220px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  isolation: isolate;
+  color: #fff;
+  background: var(--genre-accent, #1d2430);
+  border-radius: 12px;
+}
+@media (hover: none) {
+  .card {
+    transition: transform 0.12s;
+  }
+  .card:active {
+    transform: scale(0.97);
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    width: 248px;
+  }
+}
+@media (min-width: 1280px) {
+  .card {
+    width: 268px;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .wallpaper {
+    transform: scale(1.04);
+  }
+}
+.fluid {
+  width: 100%;
+}
+.wallpaper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  opacity: 0.55;
+  transition: transform 0.45s;
+}
+.wash {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, var(--genre-accent) 0%, color-mix(in srgb, var(--genre-accent) 72%, transparent) 32%, color-mix(in srgb, var(--genre-accent) 18%, transparent) 68%, transparent 100%),
+    linear-gradient(180deg, transparent 42%, rgba(0, 0, 0, 0.45) 100%);
+}
+.label {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+  z-index: 1;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+}

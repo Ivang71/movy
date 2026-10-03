@@ -1,0 +1,890 @@
+{
+ "items": [
+  {
+   "id": "22980",
+   "mediaType": "tv",
+   "title": "Watch What Happens Live with Andy Cohen",
+   "slug": "/tv/22980",
+   "poster": "/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+   "backdrop": "/hINekSpbcBxjnjGqmIm6I4bz2ab.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.0,
+   "year": "2009",
+   "releaseDate": "2009-07-16",
+   "genreIds": [
+    10767,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "63770",
+   "mediaType": "tv",
+   "title": "The Late Show with Stephen Colbert",
+   "slug": "/tv/63770",
+   "poster": "/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg",
+   "backdrop": "/gMMnf8VRg3Z98WaFmOLr9Jk8pIs.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.1,
+   "year": "2015",
+   "releaseDate": "2015-09-08",
+   "genreIds": [
+    35,
+    10767
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "59941",
+   "mediaType": "tv",
+   "title": "The Tonight Show Starring Jimmy Fallon",
+   "slug": "/tv/59941",
+   "poster": "/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
+   "backdrop": "/i4OYRb5V13BrOnTPJGdyXWg4r0J.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.8,
+   "year": "2014",
+   "releaseDate": "2014-02-17",
+   "genreIds": [
+    35,
+    10767
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "108978",
+   "mediaType": "tv",
+   "title": "Reacher",
+   "slug": "/tv/108978",
+   "poster": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+   "backdrop": "/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.1,
+   "year": "2022",
+   "releaseDate": "2022-02-03",
+   "genreIds": [
+    10759,
+    80
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "2261",
+   "mediaType": "tv",
+   "title": "The Tonight Show Starring Johnny Carson",
+   "slug": "/tv/2261",
+   "poster": "/uSvET5YUvHNDIeoCpErrbSmasFb.jpg",
+   "backdrop": "/qFfWFwfaEHzDLWLuttWiYq7Poy2.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.6,
+   "year": "1962",
+   "releaseDate": "1962-10-01",
+   "genreIds": [
+    10767
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "2734",
+   "mediaType": "tv",
+   "title": "Law & Order: Special Victims Unit",
+   "slug": "/tv/2734",
+   "poster": "/iofokHZoUB4Qhik4PflvJl8TT6a.jpg",
+   "backdrop": "/obtdxPgmfykYwVnvuYXC5f2xKlQ.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.0,
+   "year": "1999",
+   "releaseDate": "1999-09-20",
+   "genreIds": [
+    80,
+    18,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "456",
+   "mediaType": "tv",
+   "title": "The Simpsons",
+   "slug": "/tv/456",
+   "poster": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
+   "backdrop": "/qcSHGC5BfoqBoP99PzDIERYG5Qm.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.0,
+   "year": "1989",
+   "releaseDate": "1989-12-17",
+   "genreIds": [
+    16,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "5920",
+   "mediaType": "tv",
+   "title": "The Mentalist",
+   "slug": "/tv/5920",
+   "poster": "/acYXu4KaDj1NIkMgObnhe4C4a0T.jpg",
+   "backdrop": "/rJFqKcmMSttdNP58l0dVzY2NcTA.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.4,
+   "year": "2008",
+   "releaseDate": "2008-09-23",
+   "genreIds": [
+    80,
+    18,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "549",
+   "mediaType": "tv",
+   "title": "Law & Order",
+   "slug": "/tv/549",
+   "poster": "/haJ9eHytVO3H3JooMJG1DiWwDNm.jpg",
+   "backdrop": "/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.3,
+   "year": "1990",
+   "releaseDate": "1990-09-13",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "2316",
+   "mediaType": "tv",
+   "title": "The Office",
+   "slug": "/tv/2316",
+   "poster": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+   "backdrop": "/mLyW3UTgi2lsMdtueYODcfAB9Ku.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "2005",
+   "releaseDate": "2005-03-24",
+   "genreIds": [
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "61818",
+   "mediaType": "tv",
+   "title": "Late Night with Seth Meyers",
+   "slug": "/tv/61818",
+   "poster": "/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
+   "backdrop": "/dfX2UaHVE5c7kLBFbgmEZJuy4Ev.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.1,
+   "year": "2014",
+   "releaseDate": "2014-02-25",
+   "genreIds": [
+    10767,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "4304",
+   "mediaType": "tv",
+   "title": "Xplay",
+   "slug": "/tv/4304",
+   "poster": "/7ynD7g4U9hOODu1Jzf6VN4zQc6a.jpg",
+   "backdrop": "/pptMFFYI3Rs15I8HovmJTrnTM8L.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "2003",
+   "releaseDate": "2003-04-28",
+   "genreIds": [],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1416",
+   "mediaType": "tv",
+   "title": "Grey's Anatomy",
+   "slug": "/tv/1416",
+   "poster": "/hjJkrLXhWvGHpLeLBDFznpBTY1S.jpg",
+   "backdrop": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.2,
+   "year": "2005",
+   "releaseDate": "2005-03-27",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "2224",
+   "mediaType": "tv",
+   "title": "The Daily Show",
+   "slug": "/tv/2224",
+   "poster": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
+   "backdrop": "/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.4,
+   "year": "1996",
+   "releaseDate": "1996-07-22",
+   "genreIds": [
+    10763,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "113962",
+   "mediaType": "tv",
+   "title": "Lioness",
+   "slug": "/tv/113962",
+   "poster": "/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg",
+   "backdrop": "/mU7l9UaEItxHbg2YBNs0sHjoFVY.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.3,
+   "year": "2023",
+   "releaseDate": "2023-07-23",
+   "genreIds": [
+    18,
+    10768
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1434",
+   "mediaType": "tv",
+   "title": "Family Guy",
+   "slug": "/tv/1434",
+   "poster": "/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
+   "backdrop": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.4,
+   "year": "1999",
+   "releaseDate": "1999-01-31",
+   "genreIds": [
+    16,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "4614",
+   "mediaType": "tv",
+   "title": "NCIS",
+   "slug": "/tv/4614",
+   "poster": "/y4fGncqELtnvRQuwSpuH8LncZqU.jpg",
+   "backdrop": "/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.6,
+   "year": "2003",
+   "releaseDate": "2003-09-23",
+   "genreIds": [
+    80,
+    18,
+    10759
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "498",
+   "mediaType": "tv",
+   "title": "Late Show with David Letterman",
+   "slug": "/tv/498",
+   "poster": "/fTBC5EpsgKmli9VQcJMtqQ08Qj4.jpg",
+   "backdrop": "/7jEnft2CLNbILWAiBRIBrXNN7Qh.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.5,
+   "year": "1993",
+   "releaseDate": "1993-08-30",
+   "genreIds": [
+    10767,
+    35
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "82873",
+   "mediaType": "tv",
+   "title": "The Kelly Clarkson Show",
+   "slug": "/tv/82873",
+   "poster": "/sBix25bie9UQFzbarN51DpFO5ky.jpg",
+   "backdrop": "/bk7QdAIUqkGpZO5GUX4AMB2AZIB.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.2,
+   "year": "2019",
+   "releaseDate": "2019-09-09",
+   "genreIds": [
+    10767
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1622",
+   "mediaType": "tv",
+   "title": "Supernatural",
+   "slug": "/tv/1622",
+   "poster": "/8iixmfGx5EIFPdpNvB2JvI3VIqX.jpg",
+   "backdrop": "/ro0tlgnsco4SwbdAgmscLkSlMSL.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.3,
+   "year": "2005",
+   "releaseDate": "2005-09-13",
+   "genreIds": [
+    18,
+    9648,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  }
+ ],
+ "page": 1,
+ "totalPages": 25,
+ "upcomingTv": [
+  {
+   "id": "95350",
+   "mediaType": "tv",
+   "title": "Lanterns",
+   "slug": "/tv/95350",
+   "poster": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+   "backdrop": "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.8,
+   "year": "2026",
+   "releaseDate": "2026-08-16",
+   "genreIds": [
+    18,
+    9648,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": "S1.E7",
+   "episodeAirDate": "2026-09-27"
+  },
+  {
+   "id": "239618",
+   "mediaType": "tv",
+   "title": "American Hostage",
+   "slug": "/tv/239618",
+   "poster": "/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
+   "backdrop": "/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.0,
+   "year": "2026",
+   "releaseDate": "2026-09-20",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S1.E3",
+   "episodeAirDate": "2026-09-27"
+  },
+  {
+   "id": "456",
+   "mediaType": "tv",
+   "title": "The Simpsons",
+   "slug": "/tv/456",
+   "poster": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
+   "backdrop": "/qcSHGC5BfoqBoP99PzDIERYG5Qm.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.6,
+   "year": "1989",
+   "releaseDate": "1989-12-17",
+   "genreIds": [
+    16,
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S38.E1",
+   "episodeAirDate": "2026-09-27"
+  },
+  {
+   "id": "615",
+   "mediaType": "tv",
+   "title": "Futurama",
+   "slug": "/tv/615",
+   "poster": "/7RRHbCUtAsVmKI6FEMzZB6Re88P.jpg",
+   "backdrop": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.5,
+   "year": "1999",
+   "releaseDate": "1999-03-28",
+   "genreIds": [
+    16,
+    35,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": "S14.E10",
+   "episodeAirDate": "2026-09-28"
+  },
+  {
+   "id": "82428",
+   "mediaType": "tv",
+   "title": "All American",
+   "slug": "/tv/82428",
+   "poster": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
+   "backdrop": "/2sAQs9nIhLXcJU7rz8Vq19j8rO0.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.6,
+   "year": "2018",
+   "releaseDate": "2018-10-10",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S8.E13",
+   "episodeAirDate": "2026-09-28"
+  },
+  {
+   "id": "1489",
+   "mediaType": "tv",
+   "title": "Jimmy Kimmel Live!",
+   "slug": "/tv/1489",
+   "poster": "/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+   "backdrop": "/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.4,
+   "year": "2003",
+   "releaseDate": "2003-01-26",
+   "genreIds": [
+    10767,
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S25.E11",
+   "episodeAirDate": "2026-09-28"
+  },
+  {
+   "id": "95480",
+   "mediaType": "tv",
+   "title": "Slow Horses",
+   "slug": "/tv/95480",
+   "poster": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+   "backdrop": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.4,
+   "year": "2022",
+   "releaseDate": "2022-04-01",
+   "genreIds": [
+    80,
+    18,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S6.E3",
+   "episodeAirDate": "2026-09-30"
+  },
+  {
+   "id": "250203",
+   "mediaType": "tv",
+   "title": "Brothers",
+   "slug": "/tv/250203",
+   "poster": "/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg",
+   "backdrop": "/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.3,
+   "year": "2026",
+   "releaseDate": "2026-09-22",
+   "genreIds": [
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S1.E3",
+   "episodeAirDate": "2026-09-30"
+  },
+  {
+   "id": "47663",
+   "mediaType": "tv",
+   "title": "The Ark",
+   "slug": "/tv/47663",
+   "poster": "/rec774m02XNLSjU9qm5z6UUfMRl.jpg",
+   "backdrop": "/nUEcobWsTpvOh23US0MRZXIU8jt.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.8,
+   "year": "2023",
+   "releaseDate": "2023-02-01",
+   "genreIds": [
+    10765,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S3.E10",
+   "episodeAirDate": "2026-09-30"
+  },
+  {
+   "id": "253983",
+   "mediaType": "tv",
+   "title": "Women in Blue",
+   "slug": "/tv/253983",
+   "poster": "/9CHpaYUqgFM81e0emaWkfyFyche.jpg",
+   "backdrop": "/v713kGiwYw2amhk6v9lfxvAYncv.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.3,
+   "year": "2024",
+   "releaseDate": "2024-07-30",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S2.E8",
+   "episodeAirDate": "2026-09-30"
+  },
+  {
+   "id": "258165",
+   "mediaType": "tv",
+   "title": "East of Eden",
+   "slug": "/tv/258165",
+   "poster": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+   "backdrop": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.7,
+   "year": "2026",
+   "releaseDate": "2026-10-01",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-01"
+  },
+  {
+   "id": "203667",
+   "mediaType": "tv",
+   "title": "Red Queen",
+   "slug": "/tv/203667",
+   "poster": "/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg",
+   "backdrop": "/2SJ6OOyK8tWaKF7W7PzYxOKKStZ.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.8,
+   "year": "2024",
+   "releaseDate": "2024-02-29",
+   "genreIds": [
+    10759,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S2.E1",
+   "episodeAirDate": "2026-10-02"
+  },
+  {
+   "id": "80748",
+   "mediaType": "tv",
+   "title": "FBI",
+   "slug": "/tv/80748",
+   "poster": "/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg",
+   "backdrop": "/5DFvscYGpcFaQMJljCic5gbzVe6.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.1,
+   "year": "2018",
+   "releaseDate": "2018-09-25",
+   "genreIds": [
+    80,
+    10759,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S9.E1",
+   "episodeAirDate": "2026-10-05"
+  },
+  {
+   "id": "286712",
+   "mediaType": "tv",
+   "title": "Private Eyes West Coast",
+   "slug": "/tv/286712",
+   "poster": "/6eulJ8STxOjTkIpBMAcJBOPuKOw.jpg",
+   "backdrop": "/j5t8hJRdsxwnovaXRAWWy8WmPvH.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.4,
+   "year": "2026",
+   "releaseDate": "2026-09-30",
+   "genreIds": [
+    80,
+    18,
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-05"
+  },
+  {
+   "id": "228026",
+   "mediaType": "tv",
+   "title": "Law & Order Toronto: Criminal Intent",
+   "slug": "/tv/228026",
+   "poster": "/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+   "backdrop": "/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.3,
+   "year": "2024",
+   "releaseDate": "2024-02-22",
+   "genreIds": [
+    80,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S2.E1",
+   "episodeAirDate": "2026-10-05"
+  },
+  {
+   "id": "288673",
+   "mediaType": "tv",
+   "title": "Carrie",
+   "slug": "/tv/288673",
+   "poster": "/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg",
+   "backdrop": "/x4HuDkzyAfGfZpuJURU8mg43q6H.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.7,
+   "year": "2026",
+   "releaseDate": "2026-10-07",
+   "genreIds": [
+    9648,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-07"
+  },
+  {
+   "id": "285322",
+   "mediaType": "tv",
+   "title": "Below",
+   "slug": "/tv/285322",
+   "poster": "/qadm9To9UfMVenVzGVLt0m0iuxv.jpg",
+   "backdrop": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 10.0,
+   "year": "2026",
+   "releaseDate": "2026-10-08",
+   "genreIds": [
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-08"
+  },
+  {
+   "id": "284833",
+   "mediaType": "tv",
+   "title": "Avatar: Seven Havens",
+   "slug": "/tv/284833",
+   "poster": "/vYNar1VtdNyQXXUt16uPbIT6wzr.jpg",
+   "backdrop": "/ztxiwR10U7ezD16XBLn8xYryYYq.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": null,
+   "year": "2026",
+   "releaseDate": "2026-10-09",
+   "genreIds": [
+    16,
+    10759,
+    10765,
+    10751
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-09"
+  },
+  {
+   "id": "213375",
+   "mediaType": "tv",
+   "title": "VisionQuest",
+   "slug": "/tv/213375",
+   "poster": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+   "backdrop": "/v50p9hearMiu6BlYfp4O7FACmXl.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": null,
+   "year": "2026",
+   "releaseDate": "2026-10-14",
+   "genreIds": [
+    10765
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-14"
+  },
+  {
+   "id": "289892",
+   "mediaType": "tv",
+   "title": "Helluva Boss",
+   "slug": "/tv/289892",
+   "poster": "/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg",
+   "backdrop": "/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.9,
+   "year": "2020",
+   "releaseDate": "2020-10-31",
+   "genreIds": [
+    16,
+    35,
+    18,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": "S3.E2",
+   "episodeAirDate": "2026-10-14"
+  },
+  {
+   "id": "203857",
+   "mediaType": "tv",
+   "title": "The Diplomat",
+   "slug": "/tv/203857",
+   "poster": "/cOKXV0FalCYixNmZYCfHXgyQ0VX.jpg",
+   "backdrop": "/v6f9FUDDQfGIv8MLRQwlL0zvRjI.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.0,
+   "year": "2023",
+   "releaseDate": "2023-04-20",
+   "genreIds": [
+    18,
+    10768
+   ],
+   "tag": null,
+   "episodeCode": "S4.E1",
+   "episodeAirDate": "2026-10-15"
+  },
+  {
+   "id": "213562",
+   "mediaType": "tv",
+   "title": "Crystal Lake",
+   "slug": "/tv/213562",
+   "poster": "/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+   "backdrop": "/3qbNgNqMFrEEhIl43UKD9oxCkOw.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.4,
+   "year": "2026",
+   "releaseDate": "2026-10-15",
+   "genreIds": [
+    9648,
+    18
+   ],
+   "tag": null,
+   "episodeCode": "S1.E1",
+   "episodeAirDate": "2026-10-15"
+  },
+  {
+   "id": "234310",
+   "mediaType": "tv",
+   "title": "Where's Wanda?",
+   "slug": "/tv/234310",
+   "poster": "/e31KF5NW91PA5ktaxqGMmx6myea.jpg",
+   "backdrop": "/ihFgxTeZ8nenm8Y41tuGH7tCeTU.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.5,
+   "year": "2024",
+   "releaseDate": "2024-10-02",
+   "genreIds": [
+    18,
+    35
+   ],
+   "tag": null,
+   "episodeCode": "S2.E1",
+   "episodeAirDate": "2026-10-21"
+  },
+  {
+   "id": "96677",
+   "mediaType": "tv",
+   "title": "Lupin",
+   "slug": "/tv/96677",
+   "poster": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+   "backdrop": "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.5,
+   "year": "2021",
+   "releaseDate": "2021-01-08",
+   "genreIds": [
+    80,
+    18,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": "S4.E1",
+   "episodeAirDate": "2026-10-23"
+  }
+ ]
+}

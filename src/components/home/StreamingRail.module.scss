@@ -1,0 +1,150 @@
+.rail {
+  display: flex;
+  gap: 10px;
+  padding: 2px 2px 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .rail {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    padding: 0;
+    overflow: visible;
+  }
+}
+
+.tile {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  min-width: 136px;
+  height: 64px;
+  overflow: hidden;
+  cursor: pointer;
+  background: rgba(11, 15, 20, 0.6);
+  border: 1px solid rgba(238, 241, 246, 0.07);
+  border-radius: 12px;
+  transition:
+    border-color 0.25s,
+    background 0.25s;
+
+  &:focus-visible {
+    outline: none;
+    border-color: rgba(238, 241, 246, 0.45);
+  }
+}
+@media (hover: none) {
+  .tile {
+    transition: transform 0.12s;
+  }
+  .tile:active {
+    transform: scale(0.96);
+  }
+}
+@media (min-width: 1024px) {
+  .tile {
+    min-width: 0;
+    height: 72px;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .tile:hover {
+    background: rgba(20, 25, 34, 0.65);
+    border-color: rgba(238, 241, 246, 0.16);
+  }
+  .tile:hover .mark {
+    opacity: 0.9;
+  }
+}
+
+.tileActive {
+  background: rgba(20, 25, 34, 0.75);
+  border-color: rgba(238, 241, 246, 0.22);
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.8;
+    background: radial-gradient(130% 150% at 50% 135%, var(--brand-soft) 0%, transparent 60%);
+  }
+  .mark {
+    opacity: 1;
+  }
+}
+
+/* Text wordmarks (our own rendering of each service name) */
+.mark {
+  position: relative;
+  z-index: 1;
+  max-width: 78%;
+  color: #fff;
+  opacity: 0.45;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  transition: opacity 0.25s;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+}
+@media (min-width: 1024px) {
+  .mark {
+    font-size: 20px;
+  }
+}
+.netflix {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  transform: scaleX(0.82);
+}
+.prime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+}
+.hbo {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.disney {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.apple {
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+.paramount {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.hulu {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  font-size: 22px;
+}
+@media (min-width: 1024px) {
+  .hulu {
+    font-size: 24px;
+  }
+}

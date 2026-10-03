@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter, "Inter"), "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-pixel: var(--font-press-start, "Press Start 2P"), "Press Start 2P", monospace;
+
+  --color-primary: #dc2626;
+  --color-accent-hi: #f87171;
+  --color-text-hi: #eef1f6;
+  --color-text-mid: #8a94a6;
+  --color-text-lo: #5b6577;
+  --color-neo-bg: #05070a;
+  --color-surface-1: #0b0f14;
+  --color-surface-2: #141922;
+  --color-surface-3: #1d2430;
+  --color-border-subtle: #1d2430;
+  --color-border-strong: #2a3242;
+
+  --breakpoint-xs: 30rem;
+  --breakpoint-3xl: 100rem;
+
+  --animate-fade-in: fadeIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-page-enter: pageEnter 0.35s ease-out both;
+  --animate-pane-enter: paneEnter 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes pageEnter {
+    from {
+      opacity: 0;
+    }
+  }
+  @keyframes paneEnter {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+  }
+}
+
+@layer base {
+  :root {
+    --primary: #dc2626;
+    --accent-hi: #f87171;
+    --text-primary: #eef1f6;
+    --text-muted: #8a94a6;
+    --background: #05070a;
+    --surface-1: #0b0f14;
+    --surface-2: #141922;
+    --surface-3: #1d2430;
+    --border-subtle: #1d2430;
+    --border-strong: #2a3242;
+    --radius: 0.5rem;
+    color-scheme: dark;
+  }
+
+  html {
+    height: 100%;
+    overscroll-behavior-x: none;
+  }
+
+  body {
+    min-height: 100%;
+    min-height: 100dvh;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html,
+  body {
+    color: var(--text-primary);
+    background-color: var(--background);
+    font-family: var(--font-sans);
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  img {
+    display: block;
+  }
+}
+
+@layer components {
+  .layout-container {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+  @media (min-width: 768px) {
+    .layout-container {
+      padding-inline: 48px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .layout-container {
+      padding-inline: 80px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .layout-container {
+      padding-inline: 96px;
+    }
+  }
+
+  .control-3d {
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    backdrop-filter: blur(18px) saturate(140%);
+    background:
+      linear-gradient(rgba(255, 255, 255, 0.055) 0%, rgba(255, 255, 255, 0.012) 100%),
+      rgba(22, 22, 24, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    box-shadow:
+      inset 0 1px rgba(255, 255, 255, 0.08),
+      0 6px 14px -6px rgba(0, 0, 0, 0.55);
+    transition:
+      border-color 0.2s,
+      background 0.2s,
+      box-shadow 0.2s;
+  }
+  .control-3d:is(button, a, [role="button"]):hover {
+    background:
+      linear-gradient(rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%),
+      rgba(36, 36, 40, 0.9);
+    border-color: rgba(255, 255, 255, 0.16);
+    box-shadow:
+      inset 0 1px rgba(255, 255, 255, 0.14),
+      0 8px 18px -6px rgba(0, 0, 0, 0.55);
+  }
+
+  .scrollbar-styles {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.45) transparent;
+  }
+  .scrollbar-styles::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+  }
+  .scrollbar-styles::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.45);
+  }
+  .scrollbar-styles::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  .media-card {
+    position: relative;
+  }
+}

@@ -1,0 +1,142 @@
+.row {
+  --row-inset: 0px;
+  --row-gap: 6px;
+  position: relative;
+}
+
+@media (max-width: 767.98px) {
+  .bleed {
+    --row-inset: 24px;
+  }
+}
+
+.track {
+  display: flex;
+  align-items: stretch;
+  gap: var(--row-gap);
+  padding-inline: var(--row-inset);
+  margin-inline: calc(var(--row-inset) * -1);
+  overflow: auto hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.45);
+    outline-offset: -2px;
+    border-radius: 10px;
+  }
+  & > :not(.sentinel) {
+    flex: none;
+  }
+  img {
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .track {
+    cursor: grab;
+  }
+  .track[data-dragging="true"] {
+    cursor: grabbing;
+    user-select: none;
+    scroll-behavior: auto;
+  }
+  .track[data-dragging="true"] > :not(.sentinel) {
+    pointer-events: none;
+  }
+}
+
+.sentinel {
+  visibility: hidden;
+  pointer-events: none;
+  flex: 0 0 1px;
+  width: 1px;
+  align-self: stretch;
+}
+.sentinelStart {
+  margin-inline-end: calc(-1px - var(--row-gap));
+}
+.sentinelEnd {
+  margin-inline-start: calc(-1px - var(--row-gap));
+}
+
+.row::before,
+.row::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  width: max(3.5rem, min(11vw, 9rem));
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.28s;
+  background: linear-gradient(
+    var(--row-fade-dir, to left),
+    var(--background, #05070a) 0%,
+    color-mix(in srgb, var(--background, #05070a) 88%, transparent) 30%,
+    color-mix(in srgb, var(--background, #05070a) 50%, transparent) 60%,
+    transparent 100%
+  );
+}
+.row::before {
+  left: calc(var(--row-inset) * -1);
+  --row-fade-dir: to right;
+}
+.row::after {
+  right: calc(var(--row-inset) * -1);
+  --row-fade-dir: to left;
+}
+.row:not([data-at-end="true"])::after,
+.row[data-at-end="true"]:not([data-at-start="true"])::before {
+  opacity: 1;
+}
+
+.arrow {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    padding: 0;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    filter: drop-shadow(0 1px 6px rgba(0, 0, 0, 0.6));
+    transition: transform 0.15s;
+
+    &:hover {
+      transform: scale(1.12);
+    }
+    &:disabled {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
+
+.arrowPrev {
+  left: calc(var(--row-inset) * -1);
+}
+.arrowNext {
+  right: calc(var(--row-inset) * -1);
+}

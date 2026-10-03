@@ -1,0 +1,331 @@
+{
+ "id": "1458857",
+ "mediaType": "movie",
+ "title": "Doing Life",
+ "slug": "/movie/1458857",
+ "poster": "/5nZVjsCk5tWyyhLGt5U2TxsR85w.jpg",
+ "backdrop": "/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
+ "logo": "/zMSLBsrkEnP2BbNSd2725MCaXvJ.png",
+ "overview": "A single mother and an incarcerated man forge an unlikely bond through heartfelt letters, unlocking a door to redemption, hope and love against all odds.",
+ "rating": 6.6,
+ "year": 2026,
+ "releaseDate": "2026-10-02",
+ "genreIds": [
+  18,
+  10749
+ ],
+ "tag": "recently_added",
+ "imdbId": "tt36429458",
+ "originalTitle": "Doing Life",
+ "duration": 112,
+ "certification": "R",
+ "trailerId": "zrOtmDQawas",
+ "genres": [
+  {
+   "id": 18,
+   "name": "Drama"
+  },
+  {
+   "id": 10749,
+   "name": "Romance"
+  }
+ ],
+ "cast": [
+  {
+   "id": "3965870",
+   "name": "Naomi Baker",
+   "avatar": "/myRSStJz4Fwl4REI3jyoeDaNTyN.jpg",
+   "label": "Anika"
+  },
+  {
+   "id": "2101957",
+   "name": "Jay Reeves",
+   "avatar": "/s1qMftsc4xuFrQijxYXSc3U4Nnr.jpg",
+   "label": "Carousel"
+  },
+  {
+   "id": "1652527",
+   "name": "Tamberla Perry",
+   "avatar": "/yxymG8SvUD9A63DxViW7c5yUp09.jpg",
+   "label": "Acting"
+  },
+  {
+   "id": "1848253",
+   "name": "Karen Obilom",
+   "avatar": "/egdF0iqd4i1toSpJLcC7eQNkSim.jpg",
+   "label": "Acting"
+  },
+  {
+   "id": "3779032",
+   "name": "Jasmine Sargent",
+   "avatar": "/4C70IMpMsV9tXZg21oP7tyajdxo.jpg",
+   "label": "Acting"
+  },
+  {
+   "id": "1615562",
+   "name": "Danielle Moné Truitt",
+   "avatar": "/5LasbbMDuons2DGGFATC8J89l2t.jpg",
+   "label": "Acting"
+  }
+ ],
+ "directors": [
+  {
+   "id": "tyler-perry",
+   "name": "Tyler Perry",
+   "avatar": null,
+   "label": "Director"
+  }
+ ],
+ "writers": [
+  {
+   "id": "tyler-perry",
+   "name": "Tyler Perry",
+   "avatar": null,
+   "label": "Writer"
+  }
+ ],
+ "creators": [],
+ "seasons": [],
+ "recommendations": [
+  {
+   "id": "540023",
+   "mediaType": "movie",
+   "title": "Wander Darkly",
+   "slug": "/movie/540023",
+   "poster": "/96snLzPYifC4FyL2uOnzo4DPgCv.jpg",
+   "backdrop": "/wO8vg2bB4rR7lGtIlZ7mJlcfwJ7.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.0,
+   "year": "2020",
+   "releaseDate": "2020-12-11",
+   "genreIds": [
+    10749,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1294203",
+   "mediaType": "movie",
+   "title": "My Fault: London",
+   "slug": "/movie/1294203",
+   "poster": "/ttN5D6GKOwKWHmCzDGctAvaNMAi.jpg",
+   "backdrop": "/uJK0jjJ8QDOQw5lcNBwu059ht4D.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.4,
+   "year": "2025",
+   "releaseDate": "2025-02-12",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "434203",
+   "mediaType": "movie",
+   "title": "Newness",
+   "slug": "/movie/434203",
+   "poster": "/vySlYPqOrI5s8Nu6bzpGKQbotVy.jpg",
+   "backdrop": "/fvFrMDT1aKd1bap493IT2KqTLC7.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.1,
+   "year": "2017",
+   "releaseDate": "2017-11-03",
+   "genreIds": [
+    10749,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "692989",
+   "mediaType": "movie",
+   "title": "Lorelei",
+   "slug": "/movie/692989",
+   "poster": "/lv8OxXYRQRfA08YJt6eatbPnzcT.jpg",
+   "backdrop": "/4WheZtibiG35ejDCkWcHbxar5Z6.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.0,
+   "year": "2020",
+   "releaseDate": "2020-09-09",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "610781",
+   "mediaType": "movie",
+   "title": "See You Soon",
+   "slug": "/movie/610781",
+   "poster": "/nKOHCFfMsTSpLAIQKMwXotdEggs.jpg",
+   "backdrop": "/d9COll7H2LaS1GK4t6OnkpkycKf.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 5.9,
+   "year": "2019",
+   "releaseDate": "2019-07-25",
+   "genreIds": [
+    10749,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "76344",
+   "mediaType": "movie",
+   "title": "Two for the Seesaw",
+   "slug": "/movie/76344",
+   "poster": "/j1idt5I3aarVVO2zb5SdwJtg2h.jpg",
+   "backdrop": "/mwGU1Efc8lz28UCzDlpUEREOIMh.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.5,
+   "year": "1962",
+   "releaseDate": "1962-11-21",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "77985",
+   "mediaType": "movie",
+   "title": "Maria's Lovers",
+   "slug": "/movie/77985",
+   "poster": "/tWDuhuZaH6lsCnkBYXuWxJPJnkI.jpg",
+   "backdrop": "/gJZEZRpWRyoalaboAR6kpIHGK4u.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.0,
+   "year": "1984",
+   "releaseDate": "1984-07-15",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "540414",
+   "mediaType": "movie",
+   "title": "Dirt Music",
+   "slug": "/movie/540414",
+   "poster": "/9FbR35fAEr6vMiQLyxeCSgHkgvW.jpg",
+   "backdrop": "/v6ZKREYbiRITI6kyusyzm009o6D.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.3,
+   "year": "2020",
+   "releaseDate": "2020-10-08",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "85654",
+   "mediaType": "movie",
+   "title": "Fire with Fire",
+   "slug": "/movie/85654",
+   "poster": "/1lCi4gHuQmnqn5laJFYZZfaEW9F.jpg",
+   "backdrop": "/x2l5pGtlYQoFNip1LIdIE0qzAq9.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.2,
+   "year": "1986",
+   "releaseDate": "1986-05-09",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "390874",
+   "mediaType": "movie",
+   "title": "Ashes in the Snow",
+   "slug": "/movie/390874",
+   "poster": "/wRMgle7vPFvSMq5R76JhsH54W4S.jpg",
+   "backdrop": "/xC0XeQOlbA8T7TVs4PiGvH5krDh.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.4,
+   "year": "2018",
+   "releaseDate": "2018-10-12",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "28974",
+   "mediaType": "movie",
+   "title": "A Woman of Paris: A Drama of Fate",
+   "slug": "/movie/28974",
+   "poster": "/shmnpKWwfgNzntaDLPO0WYli5PX.jpg",
+   "backdrop": "/oxhJn3vjqzzWrfwZpA2YgGkRpwi.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.7,
+   "year": "1923",
+   "releaseDate": "1923-10-01",
+   "genreIds": [
+    18,
+    10749
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "24186",
+   "mediaType": "movie",
+   "title": "The Safety of Objects",
+   "slug": "/movie/24186",
+   "poster": "/i7w5Q2HP3dI6UbN59l3ZL55weir.jpg",
+   "backdrop": "/eekWPyhZTpeAxc54lkXgKD9RswS.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.5,
+   "year": "2002",
+   "releaseDate": "2002-10-25",
+   "genreIds": [
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  }
+ ],
+ "status": null,
+ "tagline": null
+}

@@ -1,0 +1,436 @@
+{
+ "id": "95350",
+ "mediaType": "tv",
+ "title": "Lanterns",
+ "slug": "/tv/95350",
+ "poster": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+ "backdrop": "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+ "logo": "/kANHXGvFKW13UEkZbYwl9nIJeEl.png",
+ "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+ "rating": 8.4,
+ "year": 2026,
+ "releaseDate": "2026-08-16",
+ "genreIds": [
+  18,
+  9648,
+  10765
+ ],
+ "tag": "new_episode",
+ "imdbId": "tt26545992",
+ "originalTitle": "Lanterns",
+ "duration": null,
+ "certification": "TV-MA",
+ "trailerId": "7UIBOsuUwc4",
+ "genres": [
+  {
+   "id": 18,
+   "name": "Drama"
+  },
+  {
+   "id": 9648,
+   "name": "Mystery"
+  },
+  {
+   "id": 10765,
+   "name": "Sci-Fi & Fantasy"
+  }
+ ],
+ "cast": [
+  {
+   "id": "3497",
+   "name": "Kyle Chandler",
+   "avatar": "/66n7XNj1dyYkzCBWR3Lq8Vz4PJ1.jpg",
+   "label": "Hal Jordan / Halogram"
+  },
+  {
+   "id": "1763709",
+   "name": "Aaron Pierre",
+   "avatar": "/hNwZWdT2KxKj1YLbipvtUhNjfAp.jpg",
+   "label": "John Stewart"
+  },
+  {
+   "id": "9015",
+   "name": "Kelly Macdonald",
+   "avatar": "/k0yVocTnTMWlNdaeOO7YRViCdhO.jpg",
+   "label": "Sheriff Kerry Kane"
+  },
+  {
+   "id": "50095",
+   "name": "Jason Ritter",
+   "avatar": "/9i4YvUpSlQDzH0U8y5FWXQkaAGf.jpg",
+   "label": "William 'Billy' Macon"
+  },
+  {
+   "id": "587438",
+   "name": "Chris Coy",
+   "avatar": "/qM89KmZYCOC9VVUle5OPMP0i5U8.jpg",
+   "label": "Waylon Sanders"
+  },
+  {
+   "id": "2407997",
+   "name": "Cary Christopher",
+   "avatar": "/3ATVXSp6iPM9SaKUvQhI9tfGA5M.jpg",
+   "label": "Young Noah Macon"
+  },
+  {
+   "id": "6416804",
+   "name": "Cairo Cash Lee",
+   "avatar": "/7zUYY8CwUAauGlaivzUabPHM5Zq.jpg",
+   "label": "Adolescent John"
+  },
+  {
+   "id": "3558026",
+   "name": "Noah Gibson Slates",
+   "avatar": "/nYqSyrWJnSydY7hBmAJ0aoOsiQ.jpg",
+   "label": "Adolescent Marcus"
+  },
+  {
+   "id": "6416805",
+   "name": "Jaylen Lyndon Hunter",
+   "avatar": "/eXNxhsVOTqWPwoURdju6iPIjca4.jpg",
+   "label": "Adolescent Aaron"
+  },
+  {
+   "id": "2101950",
+   "name": "Michael Ocampo",
+   "avatar": "/uf55svMbTaiJcQzTabBqpUyW41v.jpg",
+   "label": "Deputy Lopez"
+  },
+  {
+   "id": "2552316",
+   "name": "Cristina Frias",
+   "avatar": "/1JCfLAyXRm8PEMnZA9VVrRktJRi.jpg",
+   "label": "Judge"
+  },
+  {
+   "id": "1497250",
+   "name": "Bella Shaw",
+   "avatar": "/qql8VD1lYPIVybXmyTtoCedeyEz.jpg",
+   "label": "60 Minutes Anchor"
+  },
+  {
+   "id": "4822914",
+   "name": "Shirl Boe",
+   "avatar": "/1vaWAnZ34eAHIgcFhlwHUAZzxHk.jpg",
+   "label": "Nice Woman"
+  },
+  {
+   "id": "3110482",
+   "name": "Doug Long",
+   "avatar": "/gmmcrMXlVl9VqSYDbBI9NVHsYIl.jpg",
+   "label": "Thick Neck"
+  },
+  {
+   "id": "3518383",
+   "name": "Tony Taboada",
+   "avatar": "/goJRP7zjRxfWt1zxcTxCy4f764n.jpg",
+   "label": "Sheriff Everett"
+  },
+  {
+   "id": "2276177",
+   "name": "Juliette Hourani",
+   "avatar": "/xUQ3XF5GuMu7CTyS4QnlsljNvG5.jpg",
+   "label": "Mother"
+  },
+  {
+   "id": "6416809",
+   "name": "Zosia Rinderle",
+   "avatar": "/xlLk4zfe7tZ3wEfNSfQHOCfkr3H.jpg",
+   "label": "Young Girl (Taco Stand)"
+  },
+  {
+   "id": "1517286",
+   "name": "Jaime Alvarez",
+   "avatar": "/haPpV9Bo21UhArdZoaJc8CEIITv.jpg",
+   "label": "Taco Stand Owner"
+  }
+ ],
+ "directors": [],
+ "writers": [],
+ "creators": [
+  {
+   "id": "damon-lindelof",
+   "name": "Damon Lindelof",
+   "avatar": null,
+   "label": "Creator"
+  },
+  {
+   "id": "chris-mundy",
+   "name": "Chris Mundy",
+   "avatar": null,
+   "label": "Creator"
+  },
+  {
+   "id": "tom-king",
+   "name": "Tom King",
+   "avatar": null,
+   "label": "Creator"
+  }
+ ],
+ "seasons": [
+  {
+   "id": "165308",
+   "seasonNumber": 1,
+   "name": "Miniseries",
+   "overview": "",
+   "airDate": "2026-08-16",
+   "episodeCount": 8,
+   "poster": "/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg"
+  }
+ ],
+ "recommendations": [
+  {
+   "id": "60708",
+   "mediaType": "tv",
+   "title": "Gotham",
+   "slug": "/tv/60708",
+   "poster": "/zLpSNnVoL2bjQdc1PcaHUPUzttP.jpg",
+   "backdrop": "/rbDFI2I1nMyJtX4Y3jJ4H1QRdRX.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.6,
+   "year": "2014",
+   "releaseDate": "2014-09-22",
+   "genreIds": [
+    18,
+    80,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "42531",
+   "mediaType": "tv",
+   "title": "Powers",
+   "slug": "/tv/42531",
+   "poster": "/7imMR8ySLCPG3LsNlGej8GGtXBg.jpg",
+   "backdrop": "/wsviXEJ210JPoFQuHYGH9X4yt2B.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.7,
+   "year": "2015",
+   "releaseDate": "2015-03-10",
+   "genreIds": [
+    18,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "39351",
+   "mediaType": "tv",
+   "title": "Grimm",
+   "slug": "/tv/39351",
+   "poster": "/iOptnt1QHi6bIHmOq6adnZTV0bU.jpg",
+   "backdrop": "/oS3nip9GGsx5A7vWp8A1cazqJlF.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 8.3,
+   "year": "2011",
+   "releaseDate": "2011-10-28",
+   "genreIds": [
+    18,
+    9648,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "98187",
+   "mediaType": "tv",
+   "title": "The Irregulars",
+   "slug": "/tv/98187",
+   "poster": "/qN6HCKR3ZRqbpGBWFctVlSTKR2k.jpg",
+   "backdrop": "/4sIjlFa2jn0SsWQVuTBEFgQy4eH.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.1,
+   "year": "2021",
+   "releaseDate": "2021-03-26",
+   "genreIds": [
+    18,
+    9648,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "75450",
+   "mediaType": "tv",
+   "title": "Titans",
+   "slug": "/tv/75450",
+   "poster": "/8e6QiSexmYKaiHGPvbhaFMmQEhc.jpg",
+   "backdrop": "/iAzH3jFEaDMkjEsNNBUpGzSJ6VR.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.8,
+   "year": "2018",
+   "releaseDate": "2018-10-12",
+   "genreIds": [
+    18,
+    10759,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "50825",
+   "mediaType": "tv",
+   "title": "Sleepy Hollow",
+   "slug": "/tv/50825",
+   "poster": "/2RHj62XneYMCRPAyQrEIrKVij12.jpg",
+   "backdrop": "/jHkeqXYUU4khZEig88AFLMUOmep.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.4,
+   "year": "2013",
+   "releaseDate": "2013-09-16",
+   "genreIds": [
+    18,
+    9648,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "79501",
+   "mediaType": "tv",
+   "title": "Doom Patrol",
+   "slug": "/tv/79501",
+   "poster": "/nVN7Dt0Xr78gnJepRsRLaLYklbY.jpg",
+   "backdrop": "/sSJZVwCS0tFzcLSaQOjLpv5mFau.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.5,
+   "year": "2019",
+   "releaseDate": "2019-02-15",
+   "genreIds": [
+    10765,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "66190",
+   "mediaType": "tv",
+   "title": "Marvel's Cloak & Dagger",
+   "slug": "/tv/66190",
+   "poster": "/pYnRJuBPEqZO1o4fcxBTgmKNHfy.jpg",
+   "backdrop": "/4amkATUf2mh5QL9OQ3WmHQqx9wk.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.1,
+   "year": "2018",
+   "releaseDate": "2018-06-07",
+   "genreIds": [
+    10759,
+    18,
+    10765
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "79788",
+   "mediaType": "tv",
+   "title": "Watchmen",
+   "slug": "/tv/79788",
+   "poster": "/m8rWq3j73ZGhDuSCZWMMoE9ePH1.jpg",
+   "backdrop": "/fh2CStc3fKFYhkKOFyUHBGksRWj.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.6,
+   "year": "2019",
+   "releaseDate": "2019-10-20",
+   "genreIds": [
+    18,
+    80,
+    10765,
+    9648
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1403",
+   "mediaType": "tv",
+   "title": "Marvel's Agents of S.H.I.E.L.D.",
+   "slug": "/tv/1403",
+   "poster": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
+   "backdrop": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.5,
+   "year": "2013",
+   "releaseDate": "2013-09-24",
+   "genreIds": [
+    18,
+    10765,
+    10759
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "71663",
+   "mediaType": "tv",
+   "title": "Black Lightning",
+   "slug": "/tv/71663",
+   "poster": "/h1xbvvO6oqchfLe6xh0yLNnQxeM.jpg",
+   "backdrop": "/kv0vCJOoGyWQdDPK9vFnyvqqDHt.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 6.9,
+   "year": "2018",
+   "releaseDate": "2018-01-16",
+   "genreIds": [
+    10759,
+    10765,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  },
+  {
+   "id": "1486",
+   "mediaType": "tv",
+   "title": "21 Jump Street",
+   "slug": "/tv/1486",
+   "poster": "/9w2y0146P5EjLw63FHGWRRpqQ6v.jpg",
+   "backdrop": "/gTN0SAdXsDUE6SFFRo8QsJgXDIg.jpg",
+   "logo": null,
+   "overview": null,
+   "rating": 7.3,
+   "year": "1987",
+   "releaseDate": "1987-04-12",
+   "genreIds": [
+    80,
+    9648,
+    18
+   ],
+   "tag": null,
+   "episodeCode": null,
+   "episodeAirDate": null
+  }
+ ],
+ "status": null,
+ "tagline": null
+}

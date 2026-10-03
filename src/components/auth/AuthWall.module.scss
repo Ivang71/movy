@@ -1,0 +1,64 @@
+.wall {
+  position: relative;
+  display: flex;
+  min-height: calc(100dvh - 68px);
+  flex-direction: column;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .wall {
+    min-height: calc(100dvh - 80px);
+  }
+}
+.dots {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px);
+  background-size: 22px 22px;
+  -webkit-mask-image: radial-gradient(85% 75% at 58% 48%, #000 12%, transparent 72%);
+  mask-image: radial-gradient(85% 75% at 58% 48%, #000 12%, transparent 72%);
+}
+.mobileMarquee {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  height: 220px;
+  overflow: hidden;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(#000 0% 42%, rgba(0, 0, 0, 0.35) 72%, transparent 100%);
+  mask-image: linear-gradient(#000 0% 42%, rgba(0, 0, 0, 0.35) 72%, transparent 100%);
+}
+@media (min-width: 1024px) {
+  .mobileMarquee {
+    display: none;
+  }
+}
+@media (max-height: 800px) {
+  .mobileMarquee {
+    height: 150px;
+  }
+}
+@media (max-height: 600px) {
+  .mobileMarquee {
+    height: 88px;
+  }
+}
+.desktopWall {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .desktopWall {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    display: block;
+    width: 46%;
+    opacity: 0.75;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 35%);
+    mask-image: linear-gradient(90deg, transparent 0%, #000 35%);
+  }
+}
