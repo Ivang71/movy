@@ -22,7 +22,7 @@ export function HeroFacts({ item, extra }: { item: MediaItem; extra?: React.Reac
   }
   if (extra) facts.push(...extra);
   if (item.year) facts.push(<span key="year" className="tabular-nums">{item.year}</span>);
-  facts.push(<span key="type">{mediaLabel(t, item.mediaType)}</span>);
+  facts.push(<span key="type">{item.mediaType === "tv" ? t("type_show") : mediaLabel(t, item.mediaType)}</span>);
   genreNames(item.genreIds, item.mediaType, 2).forEach((g) => facts.push(<span key={g}>{g}</span>));
   return (
     <div className={styles.attributes}>

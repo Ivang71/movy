@@ -1,0 +1,38 @@
+.wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.mark {
+  width: 52px;
+  height: 52px;
+  transform-origin: 50%;
+  filter: drop-shadow(0 0 16px rgba(229, 9, 20, 0.32));
+  animation: breathe 1.7s ease-in-out infinite;
+}
+@media (min-width: 768px) {
+  .mark {
+    width: 60px;
+    height: 60px;
+  }
+}
+@keyframes breathe {
+  0%,
+  100% {
+    opacity: 0.42;
+    filter: drop-shadow(0 0 8px rgba(229, 9, 20, 0.16));
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 22px rgba(229, 9, 20, 0.48));
+    transform: scale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mark {
+    opacity: 0.88;
+    filter: drop-shadow(0 0 12px rgba(229, 9, 20, 0.28));
+    animation: none;
+  }
+}

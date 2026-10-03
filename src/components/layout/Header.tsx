@@ -7,6 +7,7 @@ import { BrandMark } from "@/components/ui/BrandMark";
 import { useUi } from "./UiContext";
 import { useStore } from "@/lib/store";
 import { ProfileMenu } from "@/components/auth/ProfileMenu";
+import { Avatar } from "@/components/auth/Avatar";
 import { cx } from "@/lib/format";
 
 export const NAV_ITEMS = [
@@ -135,9 +136,7 @@ export function Header() {
                 className="flex items-center justify-center h-8 w-8 rounded-[8px] text-white/75 hover:text-white hover:bg-white/[0.07] transition-colors duration-200 overflow-visible"
               >
                 {profile ? (
-                  <span className="flex h-6 w-6 items-center justify-center rounded-[7px] text-[11px] font-bold text-white" style={{ background: profile.color }}>
-                    {profile.name.slice(0, 1).toUpperCase()}
-                  </span>
+                  <Avatar profile={profile} />
                 ) : (
                   <UserRound className="h-5 w-5" aria-hidden="true" />
                 )}

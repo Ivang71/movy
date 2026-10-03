@@ -60,7 +60,8 @@
     "media_anime": "Аниме",
     "top": "Топ",
     "scroll_back": "Назад",
-    "scroll_forward": "Вперёд"
+    "scroll_forward": "Вперёд",
+    "type_show": "Сериал"
   },
   "Browse": {
     "movies": "Фильмы",

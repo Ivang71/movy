@@ -4,6 +4,7 @@ import { Search, UserRound } from "lucide-react";
 import { NAV_ITEMS } from "./Header";
 import { useUi } from "./UiContext";
 import { useStore } from "@/lib/store";
+import { Avatar } from "@/components/auth/Avatar";
 import styles from "./Dock.module.scss";
 import { cx } from "@/lib/format";
 
@@ -58,9 +59,7 @@ export function Dock() {
             >
               <div className={styles.dockIcon}>
                 {profile ? (
-                  <span className="flex h-7 w-7 items-center justify-center rounded-[8px] text-[12px] font-bold text-white" style={{ background: profile.color }}>
-                    {profile.name.slice(0, 1).toUpperCase()}
-                  </span>
+                  <Avatar profile={profile} className="h-7 w-7" rounded="rounded-[8px]" textClass="text-[12px]" />
                 ) : (
                   <UserRound className="h-[22px] w-[22px]" aria-hidden="true" />
                 )}

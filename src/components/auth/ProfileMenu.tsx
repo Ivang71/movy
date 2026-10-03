@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { useTranslations } from "next-intl";
 import { Bookmark, Globe, History, LogOut, UserRound, Users, Video } from "lucide-react";
 import { useStore } from "@/lib/store";
+import { Avatar } from "./Avatar";
 import { useUi } from "@/components/layout/UiContext";
 import { LOCALES, LOCALE_LABELS } from "@/lib/i18n";
 import { cx } from "@/lib/format";
@@ -25,9 +26,7 @@ export function ProfileMenu({ onClose }: { onClose: () => void }) {
     <div className="control-3d absolute right-0 top-11 z-50 w-72 overflow-hidden rounded-[14px] p-2 text-text-hi shadow-2xl animate-pane-enter" role="menu">
       {profile ? (
         <div className="flex items-center gap-3 px-2 py-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-[10px] text-sm font-bold text-white" style={{ background: profile.color }}>
-            {profile.name.slice(0, 1).toUpperCase()}
-          </span>
+          <Avatar profile={profile} className="h-9 w-9" rounded="rounded-[10px]" textClass="text-sm" />
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold">{profile.name}</p>
             <p className="text-[11px] text-text-mid">{t("local_note")}</p>

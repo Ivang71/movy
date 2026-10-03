@@ -53,7 +53,7 @@ export async function getBrowse(type: MediaType, filters: BrowseFilters, page: n
     const fx = fixtureBrowse(type);
     let items = fx.items;
     if (filters.genres) {
-      const wanted = filters.genres.split(",").map(Number).filter(Boolean);
+      const wanted = filters.genres.split(/[,|]/).map(Number).filter(Boolean);
       if (wanted.length) items = items.filter((m) => m.genreIds.some((g) => wanted.includes(g)));
     }
     if (filters.year) items = items.filter((m) => m.year === filters.year);

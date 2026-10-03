@@ -8,7 +8,6 @@ import { WatchHero } from "./WatchHero";
 import { Player } from "./Player";
 import { Episodes } from "./Episodes";
 import { CastRail } from "./CastRail";
-import { AboutSection } from "./AboutSection";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { MovieGrid } from "@/components/media/MovieGrid";
 import { MovieCard } from "@/components/media/MovieCard";
@@ -91,7 +90,6 @@ export function WatchPage({ details, season: initialSeason, episode: initialEpis
       <div className="layout-container z-[1] w-full pb-4 lg:pb-20">
         {isTv && details.seasons.length ? <Episodes details={details} season={season} episodes={episodes} onSeason={changeSeason} onEpisode={(s, e) => play(s, e)} activeEpisode={playing ? (initialEpisode ?? undefined) : undefined} loading={loadingEps} /> : null}
         <CastRail cast={details.cast} />
-        <AboutSection details={details} />
         {details.recommendations.length ? (
           <div className="mt-14">
             <div className="md:hidden">

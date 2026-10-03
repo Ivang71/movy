@@ -1,10 +1,18 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import type { MediaItem } from "./types";
+import { MAX_ITEMS, MAX_LISTS, itemKey, newListId, validName, type WatchList } from "./lists";
+import { AVATAR_COLORS, MAX_PROFILES, type AvatarSpec, type Interests } from "./profile";
+
+export { AVATAR_COLORS };
 
 export interface Profile {
   id: string;
   name: string;
   color: string;
+  avatar?: AvatarSpec;
+  /** Salted SHA-256 of the 4-digit PIN, when the profile is locked. */
+  pinHash?: string;
+  interests?: Interests;
   createdAt: number;
 }
 
@@ -16,20 +24,30 @@ export interface HistoryEntry {
   episode?: number;
 }
 
-export const AVATAR_COLORS = ["#dc2626", "#2563eb", "#059669", "#d97706", "#7c3aed", "#db2777", "#0891b2", "#4b5563"];
 
 interface StoreState {
   ready: boolean;
   profiles: Profile[];
   profile: Profile | null;
-  createProfile: (name: string, color: string) => Profile;
+  createProfile: (name: string, color: string, extra?: Partial<Pick<Profile, "avatar" | "pinHash" | "interests">>) => Profile | null;
+  updateProfile: (id: string, patch: Partial<Omit<Profile, "id" | "createdAt">>) => void;
   selectProfile: (id: string) => void;
   removeProfile: (id: string) => void;
   logout: () => void;
+  /** Every title across all lists, de-duplicated. */
   watchlist: MediaItem[];
+  lists: WatchList[];
   inWatchlist: (item: Pick<MediaItem, "id" | "mediaType">) => boolean;
+  inList: (listId: string, item: Pick<MediaItem, "id" | "mediaType">) => boolean;
+  /** Quick add/remove on the first list, creating one if needed. Returns true when added. */
   toggleWatchlist: (item: MediaItem) => boolean;
   removeFromWatchlist: (item: Pick<MediaItem, "id" | "mediaType">) => void;
+  createList: (name: string, items?: MediaItem[]) => { ok: true; list: WatchList } | { ok: false; reason: "invalid" | "limit" | "duplicate" };
+  renameList: (id: string, name: string) => "ok" | "invalid" | "duplicate";
+  deleteList: (id: string) => void;
+  moveList: (id: string, dir: -1 | 1) => void;
+  addToList: (id: string, item: MediaItem) => "ok" | "full" | "exists";
+  removeFromList: (id: string, item: Pick<MediaItem, "id" | "mediaType">) => void;
   history: HistoryEntry[];
   addHistory: (item: MediaItem, progress?: number, season?: number, episode?: number) => void;
   removeHistory: (item: Pick<MediaItem, "id" | "mediaType">) => void;
@@ -66,7 +84,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false);
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [activeId, setActiveId] = useState<string | null>(null);
-  const [watchlist, setWatchlist] = useState<MediaItem[]>([]);
+  const [lists, setLists] = useState<WatchList[]>([]);
   const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
 
@@ -84,11 +102,18 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!ready) return;
     if (!activeId) {
-      setWatchlist([]);
+      setLists([]);
       setHistory([]);
       return;
     }
-    setWatchlist(read<MediaItem[]>(`watchlist:${activeId}`, []));
+    const stored = read<WatchList[] | null>(`lists:${activeId}`, null);
+    if (stored) {
+      setLists(stored);
+    } else {
+      // Migrate the single watchlist from before lists existed.
+      const legacy = read<MediaItem[]>(`watchlist:${activeId}`, []);
+      setLists(legacy.length ? [{ id: newListId(), name: "Watchlist", createdAt: Date.now(), items: legacy }] : []);
+    }
     setHistory(read<HistoryEntry[]>(`history:${activeId}`, []));
   }, [activeId, ready]);
 
@@ -98,13 +123,21 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   };
 
   const createProfile = useCallback(
-    (name: string, color: string): Profile => {
-      const p: Profile = { id: `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`, name: name.trim(), color, createdAt: Date.now() };
+    (name: string, color: string, extra: Partial<Pick<Profile, "avatar" | "pinHash" | "interests">> = {}): Profile | null => {
+      if (profiles.length >= MAX_PROFILES) return null;
+      const p: Profile = { id: `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`, name: name.trim(), color, createdAt: Date.now(), ...extra };
       const next = [...profiles, p];
       persistProfiles(next);
       setActiveId(p.id);
       write("active", p.id);
       return p;
+    },
+    [profiles],
+  );
+
+  const updateProfile = useCallback(
+    (id: string, patch: Partial<Omit<Profile, "id" | "createdAt">>) => {
+      persistProfiles(profiles.map((p) => (p.id === id ? { ...p, ...patch } : p)));
     },
     [profiles],
   );
@@ -124,6 +157,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       persistProfiles(next);
       try {
         window.localStorage.removeItem(`${KEY}:watchlist:${id}`);
+        window.localStorage.removeItem(`${KEY}:lists:${id}`);
         window.localStorage.removeItem(`${KEY}:history:${id}`);
       } catch {
         /* noop */
@@ -141,28 +175,100 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     write("active", null);
   }, []);
 
-  const inWatchlist = useCallback((item: Pick<MediaItem, "id" | "mediaType">) => watchlist.some((w) => keyOf(w) === keyOf(item)), [watchlist]);
+  const commitLists = useCallback(
+    (next: WatchList[]) => {
+      setLists(next);
+      if (activeId) write(`lists:${activeId}`, next);
+    },
+    [activeId],
+  );
+
+  const watchlist = useMemo(() => {
+    const seen = new Set<string>();
+    const out: MediaItem[] = [];
+    for (const l of lists) for (const m of l.items) if (!seen.has(itemKey(m))) (seen.add(itemKey(m)), out.push(m));
+    return out;
+  }, [lists]);
+
+  const slim = (item: MediaItem): MediaItem => ({ ...item, episodeCode: null, episodeAirDate: null, tag: null, overview: null });
+
+  const inWatchlist = useCallback((item: Pick<MediaItem, "id" | "mediaType">) => lists.some((l) => l.items.some((m) => itemKey(m) === itemKey(item))), [lists]);
+  const inList = useCallback((listId: string, item: Pick<MediaItem, "id" | "mediaType">) => lists.find((l) => l.id === listId)?.items.some((m) => itemKey(m) === itemKey(item)) ?? false, [lists]);
+
+  const createList = useCallback<StoreState["createList"]>(
+    (name, items = []) => {
+      const clean = name.trim().replace(/\s+/g, " ");
+      if (!validName(clean)) return { ok: false, reason: "invalid" };
+      if (lists.length >= MAX_LISTS) return { ok: false, reason: "limit" };
+      if (lists.some((l) => l.name.toLowerCase() === clean.toLowerCase())) return { ok: false, reason: "duplicate" };
+      const list: WatchList = { id: newListId(), name: clean, createdAt: Date.now(), items: items.slice(0, MAX_ITEMS).map(slim) };
+      commitLists([...lists, list]);
+      return { ok: true, list };
+    },
+    [lists, commitLists],
+  );
+
+  const renameList = useCallback<StoreState["renameList"]>(
+    (id, name) => {
+      const clean = name.trim().replace(/\s+/g, " ");
+      if (!validName(clean)) return "invalid";
+      if (lists.some((l) => l.id !== id && l.name.toLowerCase() === clean.toLowerCase())) return "duplicate";
+      commitLists(lists.map((l) => (l.id === id ? { ...l, name: clean } : l)));
+      return "ok";
+    },
+    [lists, commitLists],
+  );
+
+  const deleteList = useCallback((id: string) => commitLists(lists.filter((l) => l.id !== id)), [lists, commitLists]);
+
+  const moveList = useCallback(
+    (id: string, dir: -1 | 1) => {
+      const i = lists.findIndex((l) => l.id === id);
+      const j = i + dir;
+      if (i < 0 || j < 0 || j >= lists.length) return;
+      const next = [...lists];
+      [next[i], next[j]] = [next[j], next[i]];
+      commitLists(next);
+    },
+    [lists, commitLists],
+  );
+
+  const addToList = useCallback<StoreState["addToList"]>(
+    (id, item) => {
+      const list = lists.find((l) => l.id === id);
+      if (!list) return "exists";
+      if (list.items.some((m) => itemKey(m) === itemKey(item))) return "exists";
+      if (list.items.length >= MAX_ITEMS) return "full";
+      commitLists(lists.map((l) => (l.id === id ? { ...l, items: [slim(item), ...l.items] } : l)));
+      return "ok";
+    },
+    [lists, commitLists],
+  );
+
+  const removeFromList = useCallback(
+    (id: string, item: Pick<MediaItem, "id" | "mediaType">) => commitLists(lists.map((l) => (l.id === id ? { ...l, items: l.items.filter((m) => itemKey(m) !== itemKey(item)) } : l))),
+    [lists, commitLists],
+  );
 
   const toggleWatchlist = useCallback(
     (item: MediaItem): boolean => {
       if (!activeId) return false;
-      const exists = watchlist.some((w) => keyOf(w) === keyOf(item));
-      const next = exists ? watchlist.filter((w) => keyOf(w) !== keyOf(item)) : [{ ...item, episodeCode: null, episodeAirDate: null, tag: null }, ...watchlist];
-      setWatchlist(next);
-      write(`watchlist:${activeId}`, next);
-      return !exists;
+      if (inWatchlist(item)) {
+        commitLists(lists.map((l) => ({ ...l, items: l.items.filter((m) => itemKey(m) !== itemKey(item)) })));
+        return false;
+      }
+      if (!lists.length) {
+        commitLists([{ id: newListId(), name: "Watchlist", createdAt: Date.now(), items: [slim(item)] }]);
+        return true;
+      }
+      return addToList(lists[0].id, item) === "ok";
     },
-    [activeId, watchlist],
+    [activeId, lists, inWatchlist, commitLists, addToList],
   );
 
   const removeFromWatchlist = useCallback(
-    (item: Pick<MediaItem, "id" | "mediaType">) => {
-      if (!activeId) return;
-      const next = watchlist.filter((w) => keyOf(w) !== keyOf(item));
-      setWatchlist(next);
-      write(`watchlist:${activeId}`, next);
-    },
-    [activeId, watchlist],
+    (item: Pick<MediaItem, "id" | "mediaType">) => commitLists(lists.map((l) => ({ ...l, items: l.items.filter((m) => itemKey(m) !== itemKey(item)) }))),
+    [lists, commitLists],
   );
 
   const addHistory = useCallback(
@@ -213,13 +319,22 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       profiles,
       profile: profiles.find((p) => p.id === activeId) ?? null,
       createProfile,
+      updateProfile,
       selectProfile,
       removeProfile,
       logout,
       watchlist,
+      lists,
       inWatchlist,
+      inList,
       toggleWatchlist,
       removeFromWatchlist,
+      createList,
+      renameList,
+      deleteList,
+      moveList,
+      addToList,
+      removeFromList,
       history,
       addHistory,
       removeHistory,
@@ -228,7 +343,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       addRecentSearch,
       clearRecentSearches,
     }),
-    [ready, profiles, activeId, createProfile, selectProfile, removeProfile, logout, watchlist, inWatchlist, toggleWatchlist, removeFromWatchlist, history, addHistory, removeHistory, clearHistory, recentSearches, addRecentSearch, clearRecentSearches],
+    [ready, profiles, activeId, createProfile, updateProfile, selectProfile, removeProfile, logout, watchlist, lists, inWatchlist, inList, toggleWatchlist, removeFromWatchlist, createList, renameList, deleteList, moveList, addToList, removeFromList, history, addHistory, removeHistory, clearHistory, recentSearches, addRecentSearch, clearRecentSearches],
   );
 
   return <StoreContext.Provider value={value}>{children}</StoreContext.Provider>;

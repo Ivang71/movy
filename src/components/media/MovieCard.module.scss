@@ -208,3 +208,69 @@
     border-color: rgba(220, 38, 38, 0.4);
   }
 }
+
+/* Hover trailer (desktop pointers only) */
+.trailerWrapper {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .trailerWrapper {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .trailerWrapperOn {
+    opacity: 1;
+  }
+}
+.trailerIframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.4);
+  transform-origin: 50%;
+  pointer-events: none;
+}
+.trailerLoader {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.trailerLoaderSpinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(238, 241, 246, 0.22);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: trailerLoaderSpin 0.7s linear infinite;
+}
+@keyframes trailerLoaderSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.muteBtn {
+  cursor: pointer;
+  pointer-events: auto;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
+}
+.muteBtn:hover {
+  background: rgba(5, 7, 10, 0.88);
+  border-color: rgba(220, 38, 38, 0.4);
+}

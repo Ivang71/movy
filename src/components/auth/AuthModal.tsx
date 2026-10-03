@@ -1,4 +1,5 @@
 import { useEffect, useState, type FormEvent } from "react";
+import { useRouter } from "next/router";
 import { useTranslations } from "next-intl";
 import { Eye, EyeOff, X } from "lucide-react";
 import { useUi } from "@/components/layout/UiContext";
@@ -10,6 +11,7 @@ type Mode = "login" | "register";
 
 export function AuthModal() {
   const t = useTranslations("Account");
+  const router = useRouter();
   const { authOpen, closeAuth, toast } = useUi();
   const { profiles, createProfile, selectProfile } = useStore();
   const [mode, setMode] = useState<Mode>("login");
@@ -54,10 +56,21 @@ export function AuthModal() {
       return;
     }
     const existing = profiles.find((p) => p.name.toLowerCase() === clean.toLowerCase());
-    if (existing) selectProfile(existing.id);
-    else createProfile(clean, color);
+    if (existing) {
+      selectProfile(existing.id);
+      toast(t("welcome_back", { name: clean }));
+      closeAuth();
+      return;
+    }
+    const made = createProfile(clean, color);
+    if (!made) {
+      setError(t("profile_limit"));
+      return;
+    }
     toast(t("welcome_back", { name: clean }));
     closeAuth();
+    // Registration continues into avatar and interests setup.
+    if (mode === "register") router.push(`/profiles?setup=${made.id}`);
   };
 
   return (

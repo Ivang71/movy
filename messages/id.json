@@ -60,7 +60,8 @@
     "media_anime": "Anime",
     "top": "Top",
     "scroll_back": "Gulir mundur",
-    "scroll_forward": "Gulir maju"
+    "scroll_forward": "Gulir maju",
+    "type_show": "Serial"
   },
   "Browse": {
     "movies": "Film",

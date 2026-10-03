@@ -21,10 +21,18 @@ interface Props {
   doneLabel: string;
   extraActions?: React.ReactNode;
   countLabel?: string;
+  /** Rendered between the header and the grid (e.g. list tabs). */
+  topBar?: React.ReactNode;
+  /** Rendered above the grid only while edit mode is on. */
+  editBar?: React.ReactNode;
+  /** Hide the edit toggle (read-only views). */
+  readOnly?: boolean;
+  /** Replaces the empty-state copy block. */
+  emptyExtra?: React.ReactNode;
 }
 
 /** Shared grid for the watchlist and history pages with search and an edit mode. */
-export function ListGrid({ heading, description, items, progress, onRemove, emptyHeading, emptyDescription, searchPlaceholder, noSearchResults, editLabel, doneLabel, extraActions, countLabel }: Props) {
+export function ListGrid({ heading, description, items, progress, onRemove, emptyHeading, emptyDescription, searchPlaceholder, noSearchResults, editLabel, doneLabel, extraActions, countLabel, topBar, editBar, readOnly, emptyExtra }: Props) {
   const t = useTranslations("Watchlist");
   const [q, setQ] = useState("");
   const [editing, setEditing] = useState(false);
@@ -37,24 +45,31 @@ export function ListGrid({ heading, description, items, progress, onRemove, empt
         title={heading}
         subtitle={countLabel ? `${description} · ${countLabel}` : description}
         aside={
-          items.length ? (
+          items.length || extraActions ? (
             <>
-              <label className="control-3d hidden h-9 items-center gap-2 rounded-[12px] px-3 sm:flex">
-                <Search className="h-4 w-4 text-text-mid" aria-hidden="true" />
-                <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={searchPlaceholder} className="w-40 bg-transparent text-[12.5px] text-text-hi placeholder:text-text-mid focus:outline-hidden" />
-              </label>
+              {items.length ? (
+                <label className="control-3d hidden h-9 items-center gap-2 rounded-[12px] px-3 sm:flex">
+                  <Search className="h-4 w-4 text-text-mid" aria-hidden="true" />
+                  <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={searchPlaceholder} className="w-40 bg-transparent text-[12.5px] text-text-hi placeholder:text-text-mid focus:outline-hidden" />
+                </label>
+              ) : null}
               {extraActions}
-              <button type="button" onClick={() => setEditing((e) => !e)} className={cx("control-3d inline-flex h-9 items-center rounded-[12px] px-3.5 text-[12.5px] font-medium", editing ? "text-primary" : "text-text-hi")}>
-                {editing ? doneLabel : editLabel}
-              </button>
+              {!readOnly ? (
+                <button type="button" onClick={() => setEditing((e) => !e)} className={cx("control-3d inline-flex h-9 items-center rounded-[12px] px-3.5 text-[12.5px] font-medium", editing ? "text-primary" : "text-text-hi")}>
+                  {editing ? doneLabel : editLabel}
+                </button>
+              ) : null}
             </>
           ) : null
         }
       />
+      {topBar}
+      {editing && editBar ? <div className="mb-5">{editBar}</div> : null}
       {!items.length ? (
         <div className="rounded-[16px] border border-dashed border-white/[0.12] py-24 text-center">
           <p className="text-lg font-semibold text-text-hi">{emptyHeading}</p>
           <p className="mt-1 text-sm text-text-mid">{emptyDescription}</p>
+          {emptyExtra}
         </div>
       ) : !visible.length ? (
         <p className="py-20 text-center text-sm text-text-mid">{noSearchResults}</p>

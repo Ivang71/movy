@@ -15,7 +15,7 @@ export function makeWatchProps(type: MediaType): GetServerSideProps<WatchPagePro
     const isTv = type !== "movie";
     const season = isTv ? Math.max(1, Number(parts[1] ?? details.seasons[0]?.seasonNumber ?? 1) || 1) : null;
     const episode = isTv ? Math.max(1, Number(parts[2] ?? 1) || 1) : null;
-    const [episodes, messages] = await Promise.all([isTv && details.seasons.length ? getSeasonEpisodes(details.id, season ?? 1, locale) : Promise.resolve([]), getPageMessages(locale, ["WatchPage", "Player"])]);
+    const [episodes, messages] = await Promise.all([isTv && details.seasons.length ? getSeasonEpisodes(details.id, season ?? 1, locale) : Promise.resolve([]), getPageMessages(locale, ["WatchPage", "Player", "Download"])]);
     res.setHeader("Cache-Control", "public, s-maxage=1800, stale-while-revalidate=86400");
     return { props: { details, season, episode, episodes, messages } };
   };

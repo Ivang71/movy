@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/Button";
 import { HeroTitle } from "@/components/home/HeroCopy";
 import { AgeRatingBadge } from "./AgeRatingBadge";
 import { useStore } from "@/lib/store";
+import { DownloadDialog } from "./DownloadDialog";
 import { useUi } from "@/components/layout/UiContext";
 import styles from "@/components/home/HomeBanner.module.scss";
 
@@ -21,9 +22,10 @@ export function WatchHero({ details, onPlay }: Props) {
   const t = useTranslations("WatchPage");
   const tp = useTranslations("Player");
   const router = useRouter();
-  const { profile, inWatchlist, toggleWatchlist } = useStore();
-  const { openAuth, toast } = useUi();
+  const { profile, inWatchlist } = useStore();
+  const { openAuth, openListPicker, toast } = useUi();
   const [vote, setVote] = useState<"up" | "down" | null>(null);
+  const [downloadOpen, setDownloadOpen] = useState(false);
   const img = heroSrcSet(details.backdrop);
   const saved = inWatchlist(details);
   const rating = details.rating ? details.rating.toFixed(1) : null;
@@ -65,8 +67,7 @@ export function WatchHero({ details, onPlay }: Props) {
       openAuth();
       return;
     }
-    const added = toggleWatchlist(details);
-    toast(added ? t("saved_to_list") : t("removed_from_list"));
+    openListPicker(details);
   };
 
   return (
@@ -108,7 +109,7 @@ export function WatchHero({ details, onPlay }: Props) {
                       <span className="truncate">{saved ? t("remove_from_list") : t("add_to_list")}</span>
                     </Button>
                     {details.mediaType === "movie" ? (
-                      <Button variant="glass" className="text-[12px] md:text-[13px]" onClick={() => toast(tp("no_sources_title"))} icon={<Download className="h-[18px] w-[18px]" aria-hidden="true" />}>
+                      <Button variant="glass" className="text-[12px] md:text-[13px]" onClick={() => setDownloadOpen(true)} icon={<Download className="h-[18px] w-[18px]" aria-hidden="true" />}>
                         <span className="truncate">{t("download")}</span>
                       </Button>
                     ) : null}
@@ -120,6 +121,7 @@ export function WatchHero({ details, onPlay }: Props) {
         </div>
       </section>
       <div className={styles.seamFade} aria-hidden="true" />
+      {downloadOpen ? <DownloadDialog details={details} onClose={() => setDownloadOpen(false)} /> : null}
       <span className="sr-only">{router.asPath}</span>
     </div>
   );

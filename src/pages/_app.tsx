@@ -5,6 +5,7 @@ import { Inter, Press_Start_2P } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { Layout } from "@/components/layout/Layout";
 import { UiProvider } from "@/components/layout/UiContext";
+import { RouteProgress } from "@/components/layout/RouteProgress";
 import { StoreProvider } from "@/lib/store";
 
 const inter = Inter({ subsets: ["latin", "latin-ext", "cyrillic"], variable: "--font-inter", display: "swap" });
@@ -27,6 +28,7 @@ export default function App({ Component, pageProps }: AppProps<PageProps>) {
       <div className={`${inter.variable} ${pressStart.variable} font-sans`}>
         <StoreProvider>
           <UiProvider>
+            <RouteProgress />
             {bare ? (
               <Component {...pageProps} />
             ) : (

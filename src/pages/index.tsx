@@ -10,6 +10,7 @@ import { Top10 } from "@/components/home/Top10";
 import { Rail } from "@/components/media/Rail";
 import { StreamingRail } from "@/components/home/StreamingRail";
 import { GenreRail } from "@/components/home/GenreRail";
+import { PersonalRails } from "@/components/home/PersonalRails";
 import { useStore } from "@/lib/store";
 import { Seo } from "@/components/layout/Seo";
 
@@ -43,6 +44,7 @@ export default function HomePage({ data }: Props) {
         <Top10 items={data.top10} locale={router.locale} />
         <Rail title={t("upcoming_tv")} subtitle={t("upcoming_tv_subtitle")} href="/browse/tv" items={data.upcomingTv} variant="upcoming" />
         <Rail title={t("trending")} subtitle={t("trending_subtitle")} items={data.trending} />
+        <PersonalRails />
         {ready && profile && watchlist.length ? <Rail title={t("watchlist")} subtitle={t("watchlist_subtitle")} href="/watchlist" items={watchlist.slice(0, 12)} /> : null}
       </div>
       <div className="layout-container flex flex-col gap-12 md:gap-16 mt-12 md:mt-16">

@@ -50,7 +50,7 @@ export function pickNamespaces(messages: AbstractIntlMessages, namespaces: strin
 }
 
 /** Namespaces every page needs for the shared layout (header, dock, footer, search, auth). */
-export const BASE_NAMESPACES = ["Meta", "Header", "Footer", "Account", "Home", "Search", "Browse"];
+export const BASE_NAMESPACES = ["Meta", "Header", "Footer", "Account", "Home", "Search", "Browse", "Watchlist"];
 
 export async function getPageMessages(locale: string | undefined, extra: string[] = []): Promise<Record<string, unknown>> {
   const all = await getMessages(locale);

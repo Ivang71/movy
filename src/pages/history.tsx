@@ -4,6 +4,7 @@ import { History, Trash2 } from "lucide-react";
 import { getPageMessages } from "@/lib/i18n";
 import { useStore } from "@/lib/store";
 import { Seo } from "@/components/layout/Seo";
+import { PageLoader } from "@/components/ui/BrandLoader";
 import { AuthWall } from "@/components/auth/AuthWall";
 import { ListGrid } from "@/components/media/ListGrid";
 
@@ -16,7 +17,7 @@ export default function HistoryPage() {
     <>
       <Seo title={tm("history_title")} description={t("watch_history_description")} path="/history" noindex />
       {!ready ? (
-        <div className="min-h-dvh" />
+        <PageLoader />
       ) : !profile ? (
         <AuthWall heading={t("watch_history")} description={t("watch_history_description")} icon={<History className="h-5 w-5" aria-hidden="true" />} />
       ) : (

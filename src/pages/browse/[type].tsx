@@ -111,7 +111,7 @@ export default function BrowsePageView({ type, initial, filters: initialFilters,
             <Rail title={th("trending")} subtitle={th("trending_subtitle")} items={rail} />
           )
         ) : null}
-        <section className="animate-pane-enter">
+        <section key={type} className="animate-pane-enter">
           <FilterBar type={type} filters={filters} onChange={onChange} count={items.length} />
           <div className={cx("mt-6 transition-opacity", loading && items.length === 0 && "opacity-50")}>
             {items.length ? (

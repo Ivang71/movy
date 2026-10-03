@@ -9,6 +9,7 @@ import { useStore } from "@/lib/store";
 import { useUi } from "@/components/layout/UiContext";
 import { loadChat, loadRooms, saveChat, saveRooms, type ChatMessage, type Room } from "@/lib/rooms";
 import { Seo } from "@/components/layout/Seo";
+import { PageLoader } from "@/components/ui/BrandLoader";
 import { tmdbImage } from "@/lib/images";
 import { cx } from "@/lib/format";
 
@@ -47,7 +48,7 @@ export default function WatchPartyRoom() {
     bottom.current?.scrollIntoView({ block: "end" });
   }, [chat.length]);
 
-  if (!ready || room === undefined) return <div className="min-h-dvh" />;
+  if (!ready || room === undefined) return <PageLoader />;
   if (!room) {
     return (
       <div className="layout-container flex min-h-dvh flex-col items-center justify-center text-center">

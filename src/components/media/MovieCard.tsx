@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { useState, type MouseEvent } from "react";
+import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { useTranslations } from "next-intl";
-import { Bookmark, BookmarkCheck, Star } from "lucide-react";
+import { Bookmark, BookmarkCheck, Star, Volume2, VolumeX } from "lucide-react";
 import type { MediaItem } from "@/lib/types";
 import { backdropSrcSet, posterSrcSet } from "@/lib/images";
 import { formatRating, formatShortDate, cx } from "@/lib/format";
 import { useStore } from "@/lib/store";
+import { useUi } from "@/components/layout/UiContext";
 import { useRouter } from "next/router";
 import styles from "./MovieCard.module.scss";
 
@@ -23,6 +24,25 @@ interface Props {
   showWatchlist?: boolean;
 }
 
+/** Trailer ids already looked up this session (null means "no trailer"). */
+const trailerCache = new Map<string, Promise<string | null>>();
+
+function lookupTrailer(item: MediaItem, locale: string): Promise<string | null> {
+  const key = `${item.mediaType}:${item.id}:${locale}`;
+  let hit = trailerCache.get(key);
+  if (!hit) {
+    hit = fetch(`/api/trailer?type=${item.mediaType}&id=${item.id}&locale=${locale}`)
+      .then((r) => r.json())
+      .then((d: { key: string | null }) => d.key)
+      .catch(() => null);
+    trailerCache.set(key, hit);
+  }
+  return hit;
+}
+
+const HOVER_DELAY_MS = 900;
+const canHoverPlay = () => typeof window !== "undefined" && window.matchMedia("(hover: hover) and (pointer: fine) and (min-width: 768px)").matches;
+
 export function mediaLabel(t: ReturnType<typeof useTranslations<"Home">>, type: MediaItem["mediaType"]): string {
   if (type === "tv") return t("media_tv");
   if (type === "anime") return t("media_anime");
@@ -32,7 +52,8 @@ export function mediaLabel(t: ReturnType<typeof useTranslations<"Home">>, type: 
 export function MovieCard({ item, variant = "rail", episodeMeta, rank, progress, priority, className, showWatchlist = true }: Props) {
   const t = useTranslations("Home");
   const router = useRouter();
-  const { inWatchlist, toggleWatchlist } = useStore();
+  const { profile, inWatchlist, toggleWatchlist } = useStore();
+  const { openAuth, toast } = useUi();
   const [loaded, setLoaded] = useState(false);
   const portrait = variant === "poster";
   const landscape = !portrait;
@@ -43,10 +64,52 @@ export function MovieCard({ item, variant = "rail", episodeMeta, rank, progress,
   const rating = formatRating(item.rating);
   const saved = inWatchlist(item);
 
+  // Hover trailer: starts after a short dwell, muted, with a corner mute toggle.
+  const [wantTrailer, setWantTrailer] = useState(false);
+  const [trailerKey, setTrailerKey] = useState<string | null>(null);
+  const [trailerReady, setTrailerReady] = useState(false);
+  const [muted, setMuted] = useState(true);
+  const dwell = useRef<number | null>(null);
+  const frame = useRef<HTMLIFrameElement>(null);
+
+  const onEnter = () => {
+    if (!canHoverPlay() || variant === "poster") return;
+    dwell.current = window.setTimeout(() => setWantTrailer(true), HOVER_DELAY_MS);
+  };
+  const onLeave = () => {
+    if (dwell.current) window.clearTimeout(dwell.current);
+    dwell.current = null;
+    setWantTrailer(false);
+    setTrailerReady(false);
+    setMuted(true);
+  };
+  useEffect(() => {
+    if (!wantTrailer) return;
+    let alive = true;
+    lookupTrailer(item, router.locale ?? "en").then((k) => alive && setTrailerKey(k));
+    return () => {
+      alive = false;
+    };
+  }, [wantTrailer, item, router.locale]);
+  useEffect(() => () => void (dwell.current && window.clearTimeout(dwell.current)), []);
+
+  const toggleMute = (e: MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const next = !muted;
+    setMuted(next);
+    frame.current?.contentWindow?.postMessage(JSON.stringify({ event: "command", func: next ? "mute" : "unMute", args: [] }), "*");
+  };
+  const playing = wantTrailer && Boolean(trailerKey);
+
   const onToggle = (e: MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    toggleWatchlist(item);
+    if (!profile) {
+      openAuth();
+      return;
+    }
+    toast(toggleWatchlist(item) ? t("watchlist_added") : t("watchlist_removed"));
   };
 
   const meta: React.ReactNode[] = [];
@@ -83,7 +146,7 @@ export function MovieCard({ item, variant = "rail", episodeMeta, rank, progress,
             : null;
 
   return (
-    <div className={cx("group", className)}>
+    <div className={cx("group", className)} onMouseEnter={onEnter} onMouseLeave={onLeave}>
       <div className={cx("w-full media-card media-card-vertical", styles.card, portrait ? styles.portrait : styles.landscape)}>
         <Link href={item.slug} aria-label={item.title}>
           <div className={styles.image}>
@@ -113,6 +176,24 @@ export function MovieCard({ item, variant = "rail", episodeMeta, rank, progress,
                 decoding="async"
                 onLoad={() => setLoaded(true)}
               />
+            ) : null}
+            {playing ? (
+              <div className={cx(styles.trailerWrapper, trailerReady && styles.trailerWrapperOn)} aria-hidden="true">
+                <iframe
+                  ref={frame}
+                  className={styles.trailerIframe}
+                  title=""
+                  tabIndex={-1}
+                  allow="autoplay; encrypted-media"
+                  src={`https://www.youtube-nocookie.com/embed/${trailerKey}?autoplay=1&mute=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&loop=1&playlist=${trailerKey}&modestbranding=1&playsinline=1&rel=0&enablejsapi=1`}
+                  onLoad={() => setTrailerReady(true)}
+                />
+              </div>
+            ) : null}
+            {wantTrailer && (!trailerKey || !trailerReady) && trailerKey !== null ? (
+              <div className={styles.trailerLoader} aria-hidden="true">
+                <span className={styles.trailerLoaderSpinner} />
+              </div>
             ) : null}
             <div className={styles.filter} aria-hidden="true" />
             {rank ? (
@@ -146,7 +227,11 @@ export function MovieCard({ item, variant = "rail", episodeMeta, rank, progress,
             </div>
           </div>
         </Link>
-        {showWatchlist ? (
+        {playing && trailerReady ? (
+          <button type="button" className={cx(styles.corner, styles.cornerOn, styles.muteBtn)} aria-label={muted ? t("unmute") : t("mute")} aria-pressed={!muted} onClick={toggleMute}>
+            {muted ? <VolumeX className="h-[15px] w-[15px]" aria-hidden="true" /> : <Volume2 className="h-[15px] w-[15px]" aria-hidden="true" />}
+          </button>
+        ) : showWatchlist ? (
           <button type="button" className={cx(styles.corner, saved && styles.cornerOn)} aria-pressed={saved} aria-label={saved ? "Remove from watchlist" : "Add to watchlist"} onClick={onToggle}>
             {saved ? <BookmarkCheck className="h-[15px] w-[15px] text-primary" aria-hidden="true" /> : <Bookmark className="h-[15px] w-[15px]" aria-hidden="true" />}
           </button>
