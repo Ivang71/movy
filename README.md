@@ -1,6 +1,6 @@
 # Movy
 
-A streaming-catalog front-end for movies, series and anime: cinematic hero billboard, Top 10 rail, "Only on" provider rails, browse pages with filters, title pages with cast, episodes and trailers, local profiles with watchlist and history, a watch-party lobby, and a "no signal" 404. Nine locales. Dark UI built with Next.js, Tailwind v4 and SCSS modules.
+A streaming-catalog front-end for movies, series and anime: a draggable hero billboard, Top 10 rail, "Only on" provider rails, personalised rails, browse pages with filters, title pages with cast, episodes and trailers, profiles with PINs and interests, multiple shareable watchlists, history, a watch-party lobby, a download dialog, and a "no signal" 404. Nine fully translated locales. Dark UI built with Next.js, Tailwind v4 and SCSS modules.
 
 Metadata and artwork come from [TMDB](https://www.themoviedb.org/). This product uses the TMDB API but is not endorsed or certified by TMDB.
 
@@ -34,21 +34,26 @@ npm run typecheck            # tsc --noEmit
 | `/`                                    | Hero billboard, Top 10, upcoming TV, trending, provider rails, 4K, top rated, genres |
 | `/browse/movie` `/browse/tv` `/browse/anime` | Poster-marquee header, genre/year/country/sort filters, infinite grid |
 | `/movie/:id` `/tv/:id[/:season/:episode]` `/anime/:id` | Title page; add `?play=true` for the player view     |
-| `/watchlist` `/history`                | Per-profile lists (auth wall when signed out)                              |
+| `/watchlist` `/history`                | Per-profile lists (auth wall when signed out); watchlist has up to 20 named lists of 100 titles |
+| `/l/:token`                            | Read-only shared list; the list travels inside the URL, so no backend is needed |
 | `/watchparty` `/watchparty/:roomId`    | Lobby, room creation/joining, room with chat                               |
-| `/profiles`                            | "Who's watching?" profile picker                                           |
+| `/profiles`                            | "Who's watching?" picker plus a create/edit wizard (name, avatar, movie and TV interests, optional PIN) |
 | `/help` `/legal/terms` `/legal/privacy` `/legal/dmca` | Static pages                                                |
-| `/api/search` `/api/browse` `/api/episodes` `/api/trailer` | JSON endpoints used by the client                      |
+| `/api/search` `/api/browse` `/api/episodes` `/api/trailer` `/api/recommendations` | JSON endpoints used by the client |
 
-Locales are path-prefixed: `/pt`, `/es`, `/de`, `/fr`, `/ru`, `/tr`, `/id`, `/it`. English is the default and the fallback for any untranslated string.
+Locales are path-prefixed: `/pt`, `/es`, `/de`, `/fr`, `/ru`, `/tr`, `/id`, `/it`. English is the default; every locale carries the full catalog (410 keys), and English still backs any key you add later.
 
 ## Playback
 
 The player is a shell. It ships with **no stream providers**: the server picker is empty and the player falls back to the official trailer. To connect a licensed source, register it in `src/lib/sources.ts`; each entry becomes a selectable server.
 
+## Downloads
+
+The title page has a Download dialog (quality, subtitle language, and a rolling 5-per-24-hours allowance). It stays empty until a registered source implements the optional `downloads()` hook in `src/lib/sources.ts`.
+
 ## Local-only state
 
-Profiles, watchlist, history, recent searches and watch-party rooms are stored in `localStorage` (see `src/lib/store.tsx` and `src/lib/rooms.ts`). There is no backend; swap those modules to sync across devices.
+Profiles (with avatar, interests and a salted-hash PIN), lists, history, recent searches and watch-party rooms are stored in `localStorage` (see `src/lib/store.tsx`, `src/lib/lists.ts` and `src/lib/rooms.ts`). There is no backend, so cross-device sign-in, QR login, email recovery and device management are intentionally not part of this project. Swap those modules to sync across devices.
 
 ## Project layout
 
@@ -61,8 +66,9 @@ src/
     media/          MovieCard, ScrollRow, Rail, MovieGrid
     browse/         BrowseMiniHero, PosterMarquee, FilterBar
     watch/          WatchHero, Player, Episodes, CastRail, AboutSection
-    auth/           AuthModal, ProfileMenu, AuthWall
+    auth/           AuthModal, ProfileMenu, AuthWall, ProfileWizard, PinPad, PinDialog, Avatar
     errors/         NoSignal (404/500)
+    ui/             Button, SectionHeader, Toast, BrandMark, BrandLoader
   lib/              tmdb client, data layer with fixture fallback, store, i18n
   data/fixtures/    Offline snapshot used when no TMDB key is configured
 messages/           Translations per locale
